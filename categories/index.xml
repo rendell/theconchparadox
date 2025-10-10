@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The Conch Paradox</title>
-    <link>https://www.conchparadox.com/categories/</link>
+    <link>https://rendell.github.io/theconchparadox/categories/</link>
     <description>Recent content in Categories on The Conch Paradox</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.conchparadox.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rendell.github.io/theconchparadox/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
