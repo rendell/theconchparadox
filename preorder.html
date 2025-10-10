@@ -1,0 +1,279 @@
+# Simple HTML Solution - Version 27
+# Let's bypass Hugo themes entirely and create a simple HTML site
+
+# Step 1: Go to a new folder for simplicity
+setwd("C:/Users/Rendell CE/Documents")
+dir.create("conch-simple-html", showWarnings = FALSE)
+setwd("conch-simple-html")
+
+# Step 2: Copy your images
+dir.create("images", showWarnings = FALSE)
+
+# Copy images from wherever they are
+old_book <- "C:/Users/Rendell CE/Documents/test-site/static/images/book-cover.jpg"
+old_author <- "C:/Users/Rendell CE/Documents/test-site/static/images/author-photo.jpg"
+
+if(file.exists(old_book)) {
+  file.copy(old_book, "images/book-cover.jpg", overwrite = TRUE)
+  print("✓ Book cover copied")
+} else {
+  print("⚠ Book cover not found")
+}
+
+if(file.exists(old_author)) {
+  file.copy(old_author, "images/author-photo.jpg", overwrite = TRUE)
+  print("✓ Author photo copied")
+} else {
+  print("⚠ Author photo not found")
+}
+
+# Step 3: Create index.html with everything inline
+index_html <- '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Conch Paradox - Rendell de Kort</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: white;
+            color: #333;
+        }
+        
+        nav {
+            background: #081f2f;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        
+        nav a:hover {
+            background: #fec377;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #457d8a;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #fec377;
+            border-bottom: 3px solid #fec377;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #457d8a;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #fec377;
+            font-size: 1.3em;
+        }
+        
+        .author {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        .book-cover {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .book-cover img {
+            width: 280px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        blockquote {
+            border-left: 5px solid #fec377;
+            padding-left: 20px;
+            margin: 30px 0;
+            font-style: italic;
+            background: #fef8f3;
+            padding: 20px;
+        }
+        
+        .buttons {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .orange { background: #fec377; }
+        .blue { background: #457d8a; }
+        .dark { background: #081f2f; }
+        
+        footer {
+            background: #081f2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="preview.html">Preview</a>
+        <a href="about.html">About</a>
+        <a href="preorder.html">Pre-Order</a>
+    </nav>
+    
+    <div class="container">
+        <h1>The Conch Paradox</h1>
+        <p class="subtitle">Lessons in Resilience from Nature and Small Island States</p>
+        <p class="author">By Rendell de Kort<br>
+        PhD Researcher in Development Economics | World Bank Consultant</p>
+        
+        <div class="book-cover">
+            <img src="images/book-cover.jpg" alt="The Conch Paradox Book Cover">
+        </div>
+        
+        <blockquote>
+            "Sometimes our greatest strengths—the specialized adaptations we develop—become our most profound vulnerabilities when circumstances change dramatically."
+        </blockquote>
+        
+        <h2>A Tale of Two Parallel Journeys</h2>
+        
+        <h3>The Personal Journey</h3>
+        <p>When our unborn son was diagnosed with a severe diaphragmatic hernia, my family was thrust from the tropical certainty of Aruba into the medical complexity of Rotterdam. This journey through impossible decisions revealed profound truths about resilience, vulnerability, and the nature of strength itself.</p>
+        
+        <h3>The Professional Journey</h3>
+        <p>As an economist studying Small Island Developing States, I analyze how isolated nations navigate existential threats. Geographic isolation, limited resources, climate vulnerability—these challenges demand unique adaptations that reveal universal principles about survival and transformation.</p>
+        
+        <h3>The Conch Paradox</h3>
+        <p>The queen conch, native to Caribbean waters, connects these journeys. Its remarkable shell—evolved over millions of years for perfect protection—now threatens the species survival in our rapidly changing world. This paradox illuminates both personal crisis and economic theory.</p>
+        
+        <div class="buttons">
+            <a href="preview.html" class="button orange">Read Preview</a>
+            <a href="preorder.html" class="button blue">Pre-Order Now</a>
+            <a href="about.html" class="button dark">About the Author</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Rendell de Kort | Expected Release: Q1 2026</p>
+    </footer>
+</body>
+</html>'
+
+writeLines(index_html, "index.html")
+
+# Step 4: Create About page
+about_html <- '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - The Conch Paradox</title>
+    <style>
+        /* Same styles as above */
+        body { font-family: Georgia, serif; margin: 0; background: white; color: #333; }
+        nav { background: #081f2f; padding: 20px; text-align: center; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; }
+        nav a:hover { background: #fec377; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #457d8a; }
+        h2 { color: #fec377; border-bottom: 3px solid #fec377; padding-bottom: 10px; }
+        .author-photo { float: right; margin: 0 0 20px 20px; }
+        .author-photo img { width: 150px; border-radius: 10px; }
+        footer { background: #081f2f; color: white; text-align: center; padding: 20px; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="preview.html">Preview</a>
+        <a href="about.html">About</a>
+        <a href="preorder.html">Pre-Order</a>
+    </nav>
+    
+    <div class="container">
+        <h1>About The Conch Paradox</h1>
+        
+        <h2>The Book</h2>
+        <p>The Conch Paradox emerged from the intersection of personal crisis and professional insight. This book weaves together personal narrative, economic analysis, and natural philosophy.</p>
+        
+        <h2>The Author</h2>
+        
+        <div class="author-photo">
+            <img src="images/author-photo.jpg" alt="Rendell de Kort">
+        </div>
+        
+        <p><strong>Rendell de Kort</strong> is a PhD researcher in development economics focusing on economic resilience in Small Island Developing States (SIDS), with specific focus on the Dutch Caribbean.</p>
+        
+        <p>Professional Background:</p>
+        <ul>
+            <li>Principal at Capstone Research Group</li>
+            <li>Founder of Cornerstone Economics</li>
+            <li>World Bank Consultant (Disaster Risk Financing)</li>
+            <li>University of Aruba (0.4 FTE position)</li>
+        </ul>
+        
+        <p>Contact: rendell@c-economics.com</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Rendell de Kort</p>
+    </footer>
+</body>
+</html>'
+
+writeLines(about_html, "about.html")
+
+# Step 5: Create CNAME file
+writeLines("www.theconchparadox.com", "CNAME")
+
+# Step 6: Open folder to see files
+shell.exec(getwd())
+
+print("=====================================")
+print("SIMPLE HTML SITE CREATED!")
+print("=====================================")
+print("Location: C:/Users/Rendell CE/Documents/conch-simple-html")
+print("")
+print("TO VIEW:")
+print("1. Open index.html in your browser")
+print("")
+print("TO DEPLOY:")
+print("1. Go to GitHub")
+print("2. Upload ALL files (index.html, about.html, images folder, CNAME)")
+print("3. Enable GitHub Pages")
+print("4. Site will be live!")
+print("")
+print("This is plain HTML - no themes to fight!")
+print("Colors are hardcoded: Orange #fec377, Blue #457d8a, Dark #081f2f")
+print("=====================================")
+
+# Open the index.html in browser to preview
+browseURL("index.html")
