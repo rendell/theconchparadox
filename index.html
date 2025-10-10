@@ -1,246 +1,159 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.151.0">
-
-
-<title>The Conch Paradox - The Conch Paradox</title>
-<meta property="og:title" content="The Conch Paradox - The Conch Paradox">
-
-
-  <link href='https://rendell.github.io/theconchparadox/favicon.ico' rel='icon' type='image/x-icon'/>
-
-
-
-  
-
-
-
-
-
-<link href="/theconchparadox/index.xml" rel="alternate" type="application/rss+xml" title="The Conch Paradox" />
-
-
-
-
-<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
-
-
-
-<link rel="stylesheet" href="/theconchparadox/css/fonts.css" media="all">
-<link rel="stylesheet" href="/theconchparadox/css/main.css" media="all">
-
-
-
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <nav class="nav">
-  <a href="/" class="nav-logo">
-    <img src="/theconchparadox/images/%3cnil%3e"
-         width=""
-         height=""
-         alt="">
-  </a>
-
-  <ul class="nav-links">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Conch Paradox - Rendell de Kort</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: white;
+            color: #333;
+        }
+        
+        nav {
+            background: #081f2f;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        
+        nav a:hover {
+            background: #fec377;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #457d8a;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #fec377;
+            border-bottom: 3px solid #fec377;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #457d8a;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #fec377;
+            font-size: 1.3em;
+        }
+        
+        .author {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        
+        .book-cover {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .book-cover img {
+            width: 280px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        blockquote {
+            border-left: 5px solid #fec377;
+            padding-left: 20px;
+            margin: 30px 0;
+            font-style: italic;
+            background: #fef8f3;
+            padding: 20px;
+        }
+        
+        .buttons {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .orange { background: #fec377; }
+        .blue { background: #457d8a; }
+        .dark { background: #081f2f; }
+        
+        footer {
+            background: #081f2f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="preview.html">Preview</a>
+        <a href="about.html">About</a>
+        <a href="preorder.html">Pre-Order</a>
+    </nav>
     
-    <li><a href="/theconchparadox/about/">About</a></li>
-    
-    <li><a href="/theconchparadox/pre-order/">Pre-Order</a></li>
-    
-    <li><a href="/theconchparadox/preview/">Preview</a></li>
-    
-  </ul>
-</nav>
-
-      </header>
-
-
-<main class="content" role="main">
-
-  
-  <article class="article">
-    
-    <h1 class="article-title">The Conch Paradox</h1>
-    
-    <div class="article-content">
-      <style>
-.book-hero {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 40px 0;
-  flex-wrap: wrap;
-}
-.book-cover {
-  flex: 0 0 300px;
-  text-align: center;
-}
-.book-cover img {
-  max-width: 100%;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  border-radius: 5px;
-}
-.book-info {
-  flex: 1;
-  min-width: 300px;
-}
-.cta-buttons {
-  margin: 30px 0;
-}
-.cta-button {
-  display: inline-block;
-  padding: 12px 30px;
-  margin: 10px 10px 10px 0;
-  background: #2c3e50;
-  color: white !important;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s;
-}
-.cta-button:hover {
-  background: #34495e;
-  text-decoration: none;
-}
-.cta-button.primary {
-  background: #e74c3c;
-}
-.cta-button.primary:hover {
-  background: #c0392b;
-}
-.quote-box {
-  background: #f8f9fa;
-  padding: 25px;
-  margin: 30px 0;
-  border-left: 4px solid #e74c3c;
-  font-style: italic;
-  font-size: 1.1em;
-}
-.features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-  margin: 40px 0;
-}
-.feature-card {
-  background: #ffffff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-.feature-card h3 {
-  color: #2c3e50;
-  margin-top: 0;
-}
-</style>
-<div class="book-hero">
-  <div class="book-cover">
-    <img src="/images/book-cover.jpg" alt="The Conch Paradox Book Cover">
-  </div>
-  <div class="book-info">
-    <h1 style="color: #2c3e50; margin-bottom: 10px;">The Conch Paradox</h1>
-    <h2 style="color: #7f8c8d; font-weight: normal;">Lessons in Resilience from Nature and Small Island States</h2>
-    <p style="color: #34495e; font-size: 1.1em; margin: 20px 0;">By <strong>Rendell de Kort</strong><br>
-    <em>PhD Researcher in Economics, World Bank Consultant</em></p>
-<pre><code>&lt;div class=&quot;cta-buttons&quot;&gt;
-  &lt;a href=&quot;/preview/&quot; class=&quot;cta-button primary&quot;&gt;Read Preview&lt;/a&gt;
-  &lt;a href=&quot;/pre-order/&quot; class=&quot;cta-button&quot;&gt;Pre-Order Now&lt;/a&gt;
-  &lt;a href=&quot;/about/&quot; class=&quot;cta-button&quot;&gt;About&lt;/a&gt;
-&lt;/div&gt;
-</code></pre>
-  </div>
-</div>
-<div class="quote-box">
-"Sometimes our greatest strengths—the specialized adaptations we develop—become our most profound vulnerabilities when circumstances change dramatically."
-</div>
-<h2 id="a-story-of-two-journeys">A Story of Two Journeys</h2>
-<p>When our unborn son was diagnosed with a severe diaphragmatic hernia, my family found ourselves thrust into a world of impossible medical decisions. Our journey from Aruba to Rotterdam revealed profound insights about the nature of resilience—both personal and systemic.</p>
-<div class="features">
-  <div class="feature-card">
-    <h3>🌊 Personal Journey</h3>
-    <p>A family's navigation through medical crisis, displacement, and the impossible decisions that test every assumption about strength.</p>
-  </div>
-  <div class="feature-card">
-    <h3>🏝️ Island Economics</h3>
-    <p>An economist's exploration of how Small Island Developing States adapt to existential threats and build resilience.</p>
-  </div>
-  <div class="feature-card">
-    <h3>🐚 The Conch Metaphor</h3>
-    <p>How a Caribbean mollusk's evolutionary paradox illuminates modern challenges of adaptation and vulnerability.</p>
-  </div>
-</div>
-<hr>
-<h3 id="early-praise">Early Praise</h3>
-<blockquote>
-<p>&ldquo;A profound meditation on resilience that seamlessly weaves personal narrative with economic insight.&rdquo;
-<br>— <em>Coming Soon</em></p></blockquote>
-<hr>
-<h3 id="pre-order-special">Pre-Order Special</h3>
-<p><strong>Limited First Edition</strong> - Only 1,000 numbered copies<br>
-<strong>25% Early Bird Discount</strong> - Available until launch<br>
-<strong>Support Research</strong> - Proceeds support ongoing PhD research into SIDS resilience</p>
-<div style="text-align: center; margin: 40px 0;">
-  <a href="/pre-order/" class="cta-button primary">Reserve Your Copy</a>
-</div>
-<hr>
-<p><em>Expected Release: Q2 2025</em></p>
-
-    </div>
-  </article>
-  
-  <div class="archive">
-    
-    
-    
-    
-    
-    <h2 class="archive-title">2016</h2>
-    
-    <article class="archive-item">
-      <a href="/theconchparadox/2016/12/30/a-plain-markdown-post/" class="archive-item-link">A Plain Markdown Post</a>
-      <span class="archive-item-date">
-        2016-12-30
-      </span>
-    </article>
-    
-    
-  </div>
-
-</main>
-
-      <footer class="footer">
-        <ul class="footer-links">
-          
-          <li>
-            <a href="/theconchparadox/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/theconchparadox/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
-          </li>
-        </ul>
-      </footer>
-
+    <div class="container">
+        <h1>The Conch Paradox</h1>
+        <p class="subtitle">Lessons in Resilience from Nature and Small Island States</p>
+        <p class="author">By Rendell de Kort<br>
+        PhD Researcher in Development Economics | World Bank Consultant</p>
+        
+        <div class="book-cover">
+            <img src="images/book-cover.jpg" alt="The Conch Paradox Book Cover">
+        </div>
+        
+        <blockquote>
+            "Sometimes our greatest strengths—the specialized adaptations we develop—become our most profound vulnerabilities when circumstances change dramatically."
+        </blockquote>
+        
+        <h2>A Tale of Two Parallel Journeys</h2>
+        
+        <h3>The Personal Journey</h3>
+        <p>When our unborn son was diagnosed with a severe diaphragmatic hernia, my family was thrust from the tropical certainty of Aruba into the medical complexity of Rotterdam. This journey through impossible decisions revealed profound truths about resilience, vulnerability, and the nature of strength itself.</p>
+        
+        <h3>The Professional Journey</h3>
+        <p>As an economist studying Small Island Developing States, I analyze how isolated nations navigate existential threats. Geographic isolation, limited resources, climate vulnerability—these challenges demand unique adaptations that reveal universal principles about survival and transformation.</p>
+        
+        <h3>The Conch Paradox</h3>
+        <p>The queen conch, native to Caribbean waters, connects these journeys. Its remarkable shell—evolved over millions of years for perfect protection—now threatens the species survival in our rapidly changing world. This paradox illuminates both personal crisis and economic theory.</p>
+        
+        <div class="buttons">
+            <a href="preview.html" class="button orange">Read Preview</a>
+            <a href="preorder.html" class="button blue">Pre-Order Now</a>
+            <a href="about.html" class="button dark">About the Author</a>
+        </div>
     </div>
     
-
-
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-
-
-<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
-
-
-
-    
-
-    
-  </body>
+    <footer>
+        <p>&copy; 2025 Rendell de Kort | Expected Release: Q1 2026</p>
+    </footer>
+</body>
 </html>
-
