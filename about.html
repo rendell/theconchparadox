@@ -2,18 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - The Conch Paradox</title>
     <style>
-        /* Same styles as above */
-        body { font-family: Georgia, serif; margin: 0; background: white; color: #333; }
+        body { font-family: Georgia, serif; line-height: 1.6; margin: 0; background: white; color: #333; }
         nav { background: #081f2f; padding: 20px; text-align: center; }
-        nav a { color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; margin: 0 10px; border-radius: 5px; transition: all 0.3s; }
         nav a:hover { background: #fec377; }
         .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { color: #457d8a; }
-        h2 { color: #fec377; border-bottom: 3px solid #fec377; padding-bottom: 10px; }
+        h1 { color: #457d8a; text-align: center; font-size: 2.5em; }
+        h2 { color: #fec377; border-bottom: 3px solid #fec377; padding-bottom: 10px; margin-top: 40px; }
         .author-photo { float: right; margin: 0 0 20px 20px; }
-        .author-photo img { width: 150px; border-radius: 10px; }
+        .author-photo img { width: 150px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+        .cta-box {
+            background: #081f2f;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 50px 0;
+            clear: both;
+        }
+        .cta-box h3 {
+            color: #fec377;
+            margin-top: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            background: #fec377;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .button:hover {
+            background: #457d8a;
+            transform: translateY(-2px);
+        }
         footer { background: #081f2f; color: white; text-align: center; padding: 20px; margin-top: 60px; }
     </style>
 </head>
@@ -22,14 +50,16 @@
         <a href="index.html">Home</a>
         <a href="preview.html">Preview</a>
         <a href="about.html">About</a>
-        <a href="preorder.html">Pre-Order</a>
+        <a href="subscribe.html">Stay Updated</a>
     </nav>
     
     <div class="container">
         <h1>About The Conch Paradox</h1>
         
         <h2>The Book</h2>
-        <p>The Conch Paradox emerged from the intersection of personal crisis and professional insight. This book weaves together personal narrative, economic analysis, and natural philosophy.</p>
+        <p>The Conch Paradox emerged from the intersection of personal crisis and professional insight. This book weaves together personal narrative, economic analysis, and natural philosophy to explore a fundamental question: Why do our greatest strengths often become our most profound vulnerabilities?</p>
+        
+        <p>Through the lens of a family medical crisis and decades of research on Small Island Developing States, this book reveals how the protective adaptations we build—whether biological shells, specialized economies, or personal boundaries—can trap us when circumstances change dramatically.</p>
         
         <h2>The Author</h2>
         
@@ -37,21 +67,29 @@
             <img src="images/author-photo.jpg" alt="Rendell de Kort">
         </div>
         
-        <p><strong>Rendell de Kort</strong> is a PhD researcher in development economics focusing on economic resilience in Small Island Developing States (SIDS), with specific focus on the Dutch Caribbean.</p>
+        <p><strong>Rendell de Kort</strong> is a development economist and PhD researcher studying economic resilience in Small Island Developing States (SIDS), with specialized focus on the Dutch Caribbean.</p>
         
-        <p>Professional Background:</p>
+        <p><strong>Professional Background:</strong></p>
         <ul>
             <li>Partner at Cornerstone Economics</li>
             <li>World Bank Consultant (Disaster Risk Financing)</li>
-            <li>University of Aruba (Dutch Caribbean Digital Competence Network (DCDC-Network))</li>
-            <li>Vrije Universiteit Amsterdam (PhD Candidate)</li>
+            <li>University of Aruba (Dutch Caribbean Digital Competence Network)</li>
+            <li>PhD Candidate, Vrije Universiteit Amsterdam</li>
         </ul>
         
-        <p>Contact: rendell@c-economics.com</p>
+        <p>Rendell's work applies Complex Adaptive Systems (CAS) and Dynamic Capabilities Theory (DCT) frameworks to understand efficiency-resilience paradoxes in small island economies. His research bridges academic rigor with practical policy applications, informing disaster risk financing strategies and sustainable development initiatives across the Caribbean.</p>
+        
+        <p><strong>Contact:</strong> <a href="mailto:rendell@c-economics.com" style="color: #457d8a;">rendell@c-economics.com</a></p>
+        
+        <div class="cta-box">
+            <h3>Stay Connected</h3>
+            <p>Subscribe to receive launch updates, exclusive preview chapters, and insights from the research journey.</p>
+            <a href="subscribe.html" class="button">Subscribe for Updates</a>
+        </div>
     </div>
     
     <footer>
-        <p>&copy; 2025 Rendell de Kort</p>
+        <p>&copy; 2025 Rendell de Kort | Expected Release: Q1 2026</p>
     </footer>
 </body>
 </html>
