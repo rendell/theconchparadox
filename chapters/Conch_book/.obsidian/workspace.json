@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-preface.md",
+                "file": "00-Table of Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-preface"
+              "title": "00-Table of Contents"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-preface.md",
+                "file": "00-Table of Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00-preface"
+              "title": "00-Table of Contents"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-preface.md",
+                "file": "00-Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 00-preface"
+              "title": "Backlinks for 00-Table of Contents"
             }
           },
           {
@@ -127,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-preface.md",
+                "file": "00-Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 00-preface"
+              "title": "Outgoing links from 00-Table of Contents"
             }
           },
           {
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-preface.md",
+                "file": "00-Table of Contents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00-preface"
+              "title": "Outline of 00-Table of Contents"
             }
           }
         ]
@@ -197,13 +198,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "c653524ec053c33c",
+  "active": "5fbac0aa110b36b3",
   "lastOpenFiles": [
+    "_scratch.md",
+    "_research.md",
+    "_feedback.md",
     "00-Table of Contents.md",
-    "00-preface.md",
-    "appendix-recognizing-your-conch.md",
-    "appendix-key-principles.md",
+    "01-the-conch-paradox.md",
     "notes.md",
+    "appendix-recognizing-your-conch.md",
+    "00-preface.md",
+    "appendix-key-principles.md",
     "acknowledgements.md",
     "13-home.md",
     "12-the-resilience-paradox.md",
@@ -217,7 +222,6 @@
     "04-the-price-of-protection.md",
     "03-the-first-line-of-defense.md",
     "02-when-the-wave-hits.md",
-    "01-the-conch-paradox.md",
     "02-chapter-two.md",
     "01-chapter-one.md",
     "00-Table of Contents.md/00-preface.md",

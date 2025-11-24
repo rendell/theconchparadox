@@ -4,7 +4,7 @@
 
 ---
 
-## Part I: The Shell — Protection and Its Costs
+## [[part-i-the-shell|Part I: The Shell — Protection and Its Costs]]
 
 - [[01-the-conch-paradox|Chapter 1: The Conch Paradox]]
 - [[02-when-the-wave-hits|Chapter 2: When the Wave Hits]]
@@ -13,7 +13,7 @@
 
 ---
 
-## Part II: The Organism — Adaptation and Transformation
+## [[part-ii-the-organism|Part II: The Organism — Adaptation and Transformation]]
 
 - [[05-sensing-change|Chapter 5: Sensing Change]]
 - [[06-the-adaptation-dilemma|Chapter 6: The Adaptation Dilemma]]
@@ -22,7 +22,7 @@
 
 ---
 
-## Part III: The Paradox Revealed — Transformation and Its Limits
+## [[part-iii-the-paradox-revealed|Part III: The Paradox Revealed — Transformation and Its Limits]]
 
 - [[09-the-regeneration-process|Chapter 9: Beyond Recovery]]
 - [[10-beyond-recovery|Chapter 10: The Rotterdam Principle]]
@@ -36,6 +36,12 @@
 - [[acknowledgements|Acknowledgements]] 
 - [[notes|Notes and References]] 
 - --- 
-- ## Appendices 
+## Appendices 
 - [[appendix-key-principles|Appendix: Key Principles from The Conch Paradox]] 
 - [[appendix-recognizing-your-conch|Appendix: Recognizing and Working With Your Conch]]
+
+--- 
+## Working Files (not for publication) 
+- [[_scratch|Unstructured Notes and Ideas]] 
+- [[_research|Research Snippets]] 
+- [[_feedback|Reader Feedback to Address]]
