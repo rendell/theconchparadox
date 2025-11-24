@@ -1,0 +1,5 @@
+# Preface 
+This book was born on the Erasmus Bridge in Rotterdam, on a freezing winter night when I finally surrendered. I was running—absurdly underdressed in shorts and borrowed women's gloves—trying to outpace a decision that was already made. Forty-eight hours earlier, we'd been under the Aruban sun when our unborn son was diagnosed with a life-threatening diaphragmatic hernia. Now we stood in a Dutch hospital, having fought through bureaucratic barriers and crossed an ocean for experimental surgery that might save him, facing a choice no parent should have to make. 
+
+Testing  if it works.
+
