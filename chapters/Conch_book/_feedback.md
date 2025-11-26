@@ -47,6 +47,8 @@ This is a bit of an aside just for my curiosity, not necessarily for the book - 
 
 Last word: Your book is the culmination of your dissertation journey- much under very trying circumstances.  It makes perfect sense for your profession.  But I would add that it behooves you to consider a 2nd version of this tour de force.   Presumably to be co-authored with your wife, you should consider a separate book just focused on personal and family resilience as you approached and overcame your ordeal.  The irony may be that while you continue and flourish in your “day job” as an economist, the much broader audience may well be for the 2nd book!  I’m serious.  I’m not sure if that effort, focused on Neo’s story but inextricably your family story, would demand too much emotionally, but I suspect it could help many families and quite possibly generate healthy royalties for years to come. You could even envision sequels as Neo’s journey continues through childhood, adolescence and early adulthood.
 
+Kind halfway
+
 # Brenchies lab
 algun metaphors ta sinti un tiki porta heavy handed of kort om de bocht pero then again that's the point of a metaphor. 
 
@@ -55,7 +57,7 @@ not what will get us out of trouble
 
 https://www.bbc.com/future/article/20251009-the-photo-showing-namibias-desert-lions-living-on-the-beach
 
-
+completed
 # Matthew Carroll (economic policy advisor - embassy of the united States for the Dutch Caribbean)
 This is a fascinating topic and a wonderful thesis, especially this “My research revealed a troubling pattern: the very adaptations that create resilience against familiar threats often leave systems most vulnerable to novel ones”
 Note the non-paradox of the cockroach… able to adapt in all climates and survive nearly any threat, it is as ubiquitous as it is disgusting.  Must we become like the roach to survive? Or is it better to fade away and leave our magnificent conch shells as our legacy.

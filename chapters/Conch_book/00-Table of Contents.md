@@ -26,7 +26,7 @@
 
 - [[09-the-regeneration-process|Chapter 9: Beyond Recovery]]
 - [[10-beyond-recovery|Chapter 10: The Rotterdam Principle]]
-- [[11-island-innovation|Chapter 11: The Resilience Paradox]]
+- [[11-the-resilience-paradox|Chapter 11: The Resilience Paradox]]
 - [[12-the-resilience-paradox|Epilogue: Love Beyond Rotterdam]]
 - [[13-home|Chapter 13: Home]]
 
