@@ -39,12 +39,14 @@
             "id": "fe0a12439640040f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "note.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "note"
             }
           }
         ],
@@ -212,20 +214,20 @@
   },
   "active": "fe0a12439640040f",
   "lastOpenFiles": [
+    "10-beyond-recovery.md",
+    "01-the-conch-paradox.md",
     "_scratch.md",
     "_feedback.md",
     "_research.md",
-    "notes.md",
+    "note.md",
     "appendix-recognizing-your-conch.md",
     "appendix-key-principles.md",
-    "01-the-conch-paradox.md",
     "00-preface.md",
     "00-Table of Contents.md",
     "acknowledgements.md",
     "13-home.md",
     "12-the-resilience-paradox.md",
     "11-island-innovation.md",
-    "10-beyond-recovery.md",
     "09-the-regeneration-process.md",
     "08-community-networks.md",
     "07-the-institutional-shell.md",

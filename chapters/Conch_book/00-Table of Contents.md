@@ -34,7 +34,7 @@
 
 ## Back Matter 
 - [[acknowledgements|Acknowledgements]] 
-- [[notes|Notes and References]] 
+- [[note|Notes and References]] 
 - --- 
 ## Appendices 
 - [[appendix-key-principles|Appendix: Key Principles from The Conch Paradox]] 

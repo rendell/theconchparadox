@@ -59,6 +59,8 @@ Here's what it usually means in practice: bounce back to normal as quickly as po
 
 This is the resilience industrial complex: a self-perpetuating system where experts profit from teaching organizations how to build better versions of what they already have. It's comfortable because it doesn't require questioning your fundamental approach. You can purchase resilience assessments, implement resilience frameworks, and measure resilience metrics—all without actually transforming anything about how you operate.
 
+Economists have understood for decades that you can't simply stack improvements in complex systems—that fixing one problem can create others. But this insight rarely penetrates the resilience industry, which keeps selling the comfortable fiction that more protection equals more safety.
+
 The conch has been perfecting its shell for millions of years. By any conventional measure of resilience, it succeeded brilliantly—right up until the moment the definition of success changed entirely.
 
 ### Understanding the paradox

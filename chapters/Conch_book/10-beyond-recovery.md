@@ -76,6 +76,22 @@ True transformative resilience requires releasing attachment to how things used 
 
 For our family, this meant accepting that we would never again be the people who left Aruba for Rotterdam, while remaining committed to the relationships and values that had sustained us through crisis. We emerged not restored but transformed—carrying both visible and invisible marks of our journey while possessing enhanced capacity for navigating uncertainty.
 
+### The additive fallacy
+
+Traditional resilience thinking operates on what might be called additive logic—the assumption that protective measures stack like building blocks. More early warning systems plus better insurance plus stronger infrastructure equals more resilience. This intuition feels obvious. It is also deeply flawed.
+
+In 1956, economists Richard Lipsey and Kelvin Lancaster proved something counterintuitive: in a world with multiple imperfections, fixing one imperfection doesn't necessarily improve outcomes—it might make them worse. When you can't achieve the ideal across all dimensions simultaneously, optimizing any single dimension may actually move you further from the best achievable outcome. Development economist Dani Rodrik has spent his career showing how this principle undermines policies that assume reforms can be stacked sequentially. The Washington Consensus—liberalize trade, strengthen property rights, reduce inflation, and prosperity follows—failed precisely because it treated complex economies as simple addition problems.
+
+There's a related insight that's even more unsettling. British economist Charles Goodhart observed that "when a measure becomes a target, it ceases to be a good measure." The moment you optimize for a specific resilience indicator, you change behavior in ways that undermine the indicator's validity. Build a resilience rating system, and organizations will game it. Measure recovery time, and you'll get faster recovery to fragile states.
+
+The World Bank's recent "Rethinking Resilience" report proposes a "5 I" strategy: income, information, insurance, infrastructure, interventions. Layer these correctly, the logic goes, and resilience follows. But this is still additive thinking. It never asks: what new rigidities might these layers create? What happens when optimization along these dimensions simultaneously creates vulnerability along dimensions we haven't yet imagined?
+
+I watched this pattern play out in my own region. In her farewell lecture as Central Bank President, Jeanette Semeleer described Aruba's journey from oil dependency to tourism dependency to—she hopes—diversified innovation. She correctly identified that "over-reliance on a single economic pillar is not a foundation but a fault line." Her phrase for what comes next echoed my own thinking: not bouncing back, but "bouncing forward to where we need to be."
+
+Yet her proposed transformation—blue economy plus green energy plus digital infrastructure—is still additive logic. Three shells instead of one. The conch paradox suggests a more uncomfortable possibility: that Aruba's very success in pivoting from oil to tourism may have created the institutional confidence that now makes the next pivot harder. Each successful transformation teaches us that transformation works, while simultaneously building the specialized infrastructure and expertise that constrains the next transformation.
+
+Our family's return to Aruba embodied this tension. We couldn't simply add "lessons learned" to our pre-crisis operating system and call ourselves resilient. The transformation had to be more fundamental—releasing attachment to how we used to work while maintaining commitment to what actually mattered. The goal wasn't accumulating more protective mechanisms. It was developing the wisdom to recognize when our shells were serving us and when they were trapping us.
+
 ### Islands of innovation in an AI world
 
 The experience of using AI during our crisis revealed something important about island adaptability. The same resourcefulness that had been essential for survival in small island contexts—learning quickly, transferring skills across domains, finding opportunities within constraints—suddenly appeared not as limitation but as advanced training for thriving with new technologies.
