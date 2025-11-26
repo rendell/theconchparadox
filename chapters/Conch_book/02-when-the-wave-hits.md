@@ -1,3 +1,4 @@
+## Chapter 2: When the Wave Hits
 ### Life before the storm
 
 "When this conference is over, I'm going to wind down and focus on us. Preparing for the baby."

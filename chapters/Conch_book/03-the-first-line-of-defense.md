@@ -1,4 +1,5 @@
-### <Brief section on how conch shells are structured in layers, connecting to layered response systems>
+## Chapter 3: The First Line of Defense
+### Brief section on how conch shells are structured in layers, connecting to layered response systems>
 
 Need to fill in
 

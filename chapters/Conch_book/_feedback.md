@@ -6,6 +6,8 @@ I have two points of feedback:
 - I think you should perhaps make clearer in the beginning what resilience measures were taken in both cases (your son and SIDS), and why in both cases they created new vulnerabilities. This does become clear at the end, but you leave it a little bit to the reader to fill in these blanks. I would maybe add a single paragraph to the text where you make the comparison / analogy directly explicit by mentioning these four points (1: resilience measures taken for your son, 2: why they created new vulnerabilities, 3: resilience measures taken for SIDS, 4: why they create new vulnerabilities). This would help the reader to understand the analogy better, because it of course appears to be quite far-fetched when you first read it, while you then convincingly show that this is not the case.
 - Second, a question I have after reading this is: what would the alternative look like, i.e. what if you would not take any resilience measures and just decide to let go – both for your son and SIDS? I assume this will be explained later in the book, but if this is a preview of the entire book then you maybe want to provide some answers to this already. What will be the main takeaway / advice from the book, if it is not resilience measures? Is it simply accepting vulnerability? You mention for your son that letting go worked out well (I think?), but what is the lesson for SIDS? This is what most readers will be interested in. If SIDS should not take resilience measures, but should just accept vulnerability, what would that mean in practice, and how/why would that improve the situation?
 
+Completed. 
+
 ## Amber van Veghel (Phd student in food security)
 
 Congratulations on getting this far in the process of writing your book. I am excited to follow the launch and to further read. I’m happy to hear that Neo is doing well and once he is able to read, he can read how his parents felt before his birth. That is a very precious gift. Below I summed up some thoughts, followed by some small remarks:
@@ -29,6 +31,8 @@ Feedback:
 ·       Chapter 1: “Even in disaster response, the pattern held. The formal emergency systems designed to protect island communities often proved less effective than informal networks when novel threats emerged that didn't fit existing protocols. The official structures, perfected for hurricane response, couldn't pivot quickly to pandemic requirements.”: I got a bit lost here, perhaps a bit more contextualization could help me better understand it, is this related to wearing mouthmasks and adhering to other rules during the COVID-19 crisis?
 
 Chapter 1: “Let me make the parallel direct, because it's not obvious at first glance how a family medical crisis and island economic policy could possibly **be** the same pattern.” : should “be” be replaced with have or hold?
+
+Completed
 
 # John Horton (former World Bank mission leader for food security assessments Curacao and Aruba)
  Your book is a real tour de force:
