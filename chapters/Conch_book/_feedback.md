@@ -74,3 +74,12 @@ Indeed what for a long time can serve as your protection , can be the one thing 
 Thank you for sharing your story and for combining the personal with the scientific.
 
 Looking forward to the rest.✅
+
+## Sabine van der Wal
+Ik heb de preface en eerste deel gelezen. Intrigerend! Ben benieuwd naar de rest van je boek 🤗
+Ik heb me aangemeld voor updates.
+
+Uit meerdere trainingen die ik gevolgd heb,  ook gericht persoonlijk leiderschap is een van de uitgangspunten dat je sterkste eigenschappen  ook je grootste valkuilen kunnen zijn.  Dat ligt wel een beetje in lijn met jouw verhaal.  
+Het is wel ook heel intrigerend vind ik zelf ook te kijken naar waar in huidig opzicht de zwakten zitten, juist ook iets heel sterks verborgen kan zijn.  Omdenken is een groot goed.  
+Ik lees er graag over want het helpt om vanuit andere perspectieven te benaderen. 
+Thanks! Ik kijk uit naar je publicatie.

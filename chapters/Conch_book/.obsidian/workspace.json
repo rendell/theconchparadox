@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "_research"
             }
+          },
+          {
+            "id": "fe0a12439640040f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,11 +210,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "5fbac0aa110b36b3",
+  "active": "fe0a12439640040f",
   "lastOpenFiles": [
     "_scratch.md",
-    "_research.md",
     "_feedback.md",
+    "_research.md",
     "notes.md",
     "appendix-recognizing-your-conch.md",
     "appendix-key-principles.md",
