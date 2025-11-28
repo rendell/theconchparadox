@@ -1,5 +1,3 @@
-## Chapter 12: Home
-
 ## The gravitational pull of the familiar
 
 Three years have passed since we returned to Aruba with Neo healthy but forever changed by his early struggles. He now plays freely on our beach, building sandcastles and splashing in the turquoise water with the uninhibited joy of a child who has no memory of fighting for breath in a Rotterdam hospital room. Watching him, I'm struck by how completely he has claimed this island as his home, despite spending his first critical months in a world of machines and monitors thousands of miles away.
@@ -10,13 +8,13 @@ Yet if I'm honest, our family's transformation has proven more fragile than I ex
 
 The conversation that should have served as a warning came just after Neo passed his fit-to-fly test. I was over the moon—practically bouncing around our cramped Rotterdam apartment at the prospect of finally returning home. I could already imagine walking barefoot in our yard, sleeping in our own bed, reclaiming the comfortable life we had left behind more than a year earlier.
 
-"I'm worried," Lay Hing said quietly, watching me celebrate. "What if we go back and fall into the same old patterns as before?"
+"I'm worried," Lay said quietly, watching me celebrate. "What if we go back and fall into the same old patterns as before?"
 
 Her words felt like a splash of cold water on my euphoria. Here I was, finally able to envision our return to paradise, and she was introducing doubt into what should have been pure celebration. Even though she was excited about going home too, there was something in her voice—a prescient fear that our relationship might not survive the transition back to normal life.
 
 "Of course not," I reassured her, perhaps too quickly. "We're changed people now. We've been through too much together to go backwards."
 
-But even as I dismissed her concerns, something nagged at me. Deep down, maybe I was worried too. The crisis had unified us against external threats, but had it really resolved the underlying tensions about priorities, communication, and partnership that had existed before Neo's medical emergency? Lay Hing kept returning to this theme over our final weeks in Rotterdam—mixed feelings about a return that should have been purely joyful.
+But even as I dismissed her concerns, something nagged at me. Deep down, maybe I was worried too. The crisis had unified us against external threats, but had it really resolved the underlying tensions about priorities, communication, and partnership that had existed before Neo's medical emergency? Lay kept returning to this theme over our final weeks in Rotterdam—mixed feelings about a return that should have been purely joyful.
 
 I chose to focus on the practical excitement of going home rather than engaging with her deeper concerns. That choice, in retrospect, was perhaps the first sign that I was already beginning to retreat from the emotional work our relationship required.
 
@@ -32,9 +30,9 @@ What I failed to recognize was that surviving crisis together doesn't automatica
 
 ## Building the shell
 
-When we returned to Aruba, my first priority was restoring the children's bedrooms. Lay Hing designed beautiful themes for each—Encanto for Sophie, space exploration for Neo—while I focused on execution. We painted walls, arranged furniture, and created spaces that would help them reclaim their sense of home after our long displacement.
+When we returned to Aruba, my first priority was restoring the children's bedrooms. Lay designed beautiful themes for each—Encanto for Amelie, space exploration for Neo—while I focused on execution. We painted walls, arranged furniture, and created spaces that would help them reclaim their sense of home after our long displacement.
 
-Lay Hing encouraged this focus on the children, and working together on their rooms felt like the family-first partnership we had promised each other in Rotterdam. But as soon as the children's spaces were complete, I turned my attention to a project that had been gestating in my mind throughout our final months abroad: creating the perfect home office.
+Lay encouraged this focus on the children, and working together on their rooms felt like the family-first partnership we had promised each other in Rotterdam. But as soon as the children's spaces were complete, I turned my attention to a project that had been gestating in my mind throughout our final months abroad: creating the perfect home office.
 
 Lay supported this goal enthusiastically at first. We had agreed that I deserved a proper workspace after years of making do with makeshift arrangements. She had enjoyed her own home office for years, so my desire for dedicated space felt fair and reasonable. We even paid for modifications from our company account—new paint, custom shelving, upgraded technology. Lay provided advice on the look and feel, helping me envision a space that would be both productive and comfortable.
 
@@ -48,21 +46,21 @@ The office layout created an unintentional tableau that would prove prophetic. T
 
 I never consciously noticed this positioning during those early months. The painting had simply found its natural place in my carefully curated environment, a reminder of the intellectual insights I had gained during our Rotterdam journey. But the irony was building, even if I couldn't see it yet.
 
-Sophie, meanwhile, developed her own relationship with my office retreat. She would walk right in without hesitation, asking for help with homework, requesting playtime, or simply wanting to share something exciting from her day. Her interruptions were always welcome—perhaps because she approached my space with the innocence of someone who didn't yet understand that adults sometimes hide from each other.
+Amelie, meanwhile, developed her own relationship with my office retreat. She would walk right in without hesitation, asking for help with homework, requesting playtime, or simply wanting to share something exciting from her day. Her interruptions were always welcome—perhaps because she approached my space with the innocence of someone who didn't yet understand that adults sometimes hide from each other.
 
-"Daddy's in his shell again," she might say, though I'm not sure she recognized the full meaning of her metaphor. Sophie seemed to instinctively understand that getting me "out of my shell" was sometimes necessary, and she possessed the confidence to breach boundaries that Lay increasingly felt were designed to exclude her.
+"Daddy's in his shell again," she might say, though I'm not sure she recognized the full meaning of her metaphor. Amelie seemed to instinctively understand that getting me "out of my shell" was sometimes necessary, and she possessed the confidence to breach boundaries that Lay increasingly felt were designed to exclude her.
 
 ## When retreat becomes routine
 
-The return to work overload happened gradually, then suddenly. Despite our Rotterdam promises to prioritize family, both Elena and I found it difficult to say no to projects that offered financial security after our lean year abroad. Elena, especially, felt pressure to accept every opportunity, given how much we had lived on Cornerstone's reserves during our medical crisis with minimal activity.
+The return to work overload happened gradually, then suddenly. Despite our Rotterdam promises to prioritize family, both Lay and I found it difficult to say no to projects that offered financial security after our lean year abroad. Lay especially felt pressure to accept every opportunity, given how much we had lived on Cornerstone's reserves during our medical crisis with minimal activity.
 
-Before long, we were competing again for time and space to work, despite having agreed repeatedly in Rotterdam that family would come first. The familiar patterns reasserted themselves with disappointing inevitability: overlapping deadlines, competing priorities, and the stress of managing both business partnerships and marriage simultaneously.
+Before long, we were competing again for time and space to work, despite having agreed repeatedly in Rotterdam that family would come first. The familiar patterns reasserted themselves with disappointing inevitability: overlapping deadlines, competing priorities, and the stress of managing both business partnership and marriage simultaneously.
 
 When tensions arose around work allocation or household responsibilities, I found myself falling back on a script that felt protective but proved destructive: "This isn't going anywhere. I'm going to my office to work."
 
 The phrase became my exit strategy from difficult conversations. Rather than engaging with Lay's concerns about our relationship patterns, rather than sitting with the discomfort of conflicts that had no clear solutions, I would retreat to the one space where I maintained complete control. The office door became a physical barrier to emotional availability.
 
-Sometimes I would even lock it—not consciously trying to exclude Lay, but creating an environment where I could focus without interruption. From my perspective, I was protecting my productivity and mental space. From Lay's perspective, I was choosing work over relationship, using my perfect sanctuary as a fortress against emotional intimacy.
+Sometimes I would even lock it—not consciously trying to exclude Lay, but creating an environment where I could focus without interruption. From my perspective, I was protecting my productivity and mental space. From her perspective, I was choosing work over relationship, using my perfect sanctuary as a fortress against emotional intimacy.
 
 The more beautiful and comfortable I made the office, the more time I wanted to spend there. It became my preferred environment—a place where everything was organized according to my preferences, where I could engage with intellectually stimulating challenges rather than emotionally complex relationship dynamics, where I felt competent and in control rather than uncertain and vulnerable.
 
@@ -84,7 +82,7 @@ Neither of us was entirely wrong. Both of us were trapped in patterns that had d
 
 ## When resilience runs out
 
-The mediation paperwork sits on my desk, each form a stark reminder of how the solidarity that carried us through Kayden's medical emergency has given way to something I never anticipated: the recognition that weathering an external crisis together doesn't automatically create the foundation for ongoing partnership.
+The mediation paperwork sits on my desk, each form a stark reminder of how the solidarity that carried us through Neo's medical emergency has given way to something I never anticipated: the recognition that weathering an external crisis together doesn't automatically create the foundation for ongoing partnership.
 
 I pick up the intake questionnaire, designed to help the mediator understand our relationship patterns. One question stops me: "What behaviors or communication patterns contribute to conflict in your relationship?"
 
@@ -150,23 +148,15 @@ The painting has become a different kind of reminder now. Not of intellectual in
 
 ## The nail in the forehead
 
-My mediator showed me a video that crystallized something I had been doing wrong for years. In it, a woman complains to her partner about the pain of having a nail embedded in her forehead. Her partner, seeing the obvious problem, keeps trying to suggest removing the nail. She grows increasingly frustrated: "You're not listening to me!"
+But recognizing patterns and changing them are different things entirely. The mediator showed me a video that crystallized something I had been doing wrong for years.
+
+In it, a woman complains to her partner about the pain of having a nail embedded in her forehead. Her partner, seeing the obvious problem, keeps trying to suggest removing the nail. She grows increasingly frustrated: "You're not listening to me!"
 
 The point isn't subtle, but it landed hard. My entire approach to Lay's concerns had been to identify the nail and propose solutions. Efficient. Logical. And completely counterproductive.
 
 I do my best now to listen. To ask questions. To resist the overwhelming urge to fix what I see. It's harder than any analytical challenge I've faced in my research—because my instinct to solve problems is precisely the pattern I'm trying to break.
 
 But I'm learning that sometimes the most resilient response isn't to build better defenses or devise better strategies. It's to simply be present with someone else's pain without trying to make it go away.
-
-## Islands and intimacy
-
-The parallel to my research on Small Island Developing States feels uncomfortably precise. Islands that over-specialize in tourism develop robust infrastructure and expertise for that sector—protective mechanisms that serve them well during normal economic conditions. But when novel disruptions like pandemic shutdowns arrive, those same specialized adaptations become vulnerabilities. The very competencies that created prosperity now constrain the capacity for transformation.
-
-The islands that demonstrate greatest resilience aren't necessarily those with the strongest defenses, but those that maintain flexibility alongside their specializations. They cultivate diverse economic capabilities. They develop governance systems that can adapt to changing circumstances. They build networks that enable rapid reconfiguration when environments shift.
-
-In my marriage, I had perfected my specialized adaptations—the analytical approach, the independent problem-solving, the emotional compartmentalization—to such a degree that I lost the flexibility necessary for partnership. I had built such a perfect protective shell that I couldn't emerge from it even when the relationship required it.
-
-The queen conch's magnificent shell, perfected over millions of years, now threatens its survival in rapidly changing oceans. My own carefully constructed protective mechanisms, refined through years of professional success and crisis management, were threatening the survival of my marriage.
 
 ## Grace
 
