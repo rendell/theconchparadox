@@ -86,21 +86,17 @@ Sometimes the shell itself is the problem.
 
 ### Understanding the paradox
 
-The queen conch, a marine mollusk native to Caribbean waters, embodies this paradox perfectly. Its magnificent shell—with its distinctive pink interior and protective spines—represents one of nature's most sophisticated defensive structures. The three-tiered composite design dissipates force, contains cracks, and withstands tremendous pressure. This extraordinary organism has survived virtually unchanged for millions of years.
+But there's a deeper dimension to the conch's vulnerability that I didn't fully grasp until much later.
 
-Yet today, despite this evolutionary masterpiece, the species faces extinction.
-
-Warming oceans, habitat degradation, and industrial fishing present entirely different challenges than ancient predators. When threatened, the conch's instinct is retreat and fortification—sealing the entrance to its shell. Against a shark, this works perfectly. The predator can't reach the vulnerable organism tucked deep inside its chambers. But against a fisherman who simply carries the whole sealed shell to shore and punches a hole through it later, the sealing behavior is worse than useless—it prevents escape while doing nothing to prevent capture.
+When threatened, the conch's instinct is retreat and fortification—sealing the entrance to its shell. Against a shark, this works perfectly. The predator can't reach the vulnerable organism tucked deep inside its chambers. But against a fisherman who simply carries the whole sealed shell to shore and punches a hole through it later, the sealing behavior is worse than useless—it prevents escape while doing nothing to prevent capture.
 
 This is the deeper lesson: we don't just _have_ shells; we _retreat into them_ when threatened. And sometimes that instinct—so effective against familiar dangers—leaves us trapped and helpless when the nature of the threat changes.
 
 Can perfection itself become a trap?
 
-Once you see the pattern, you recognize it everywhere. Companies invest deeply in core competencies, building competitive advantages through specialization—until the market shifts, and those same deep investments become sunk costs that prevent pivoting. Marriages develop comfortable patterns and unspoken expectations, creating stability through predictability—until crisis hits, and those patterns become rigid constraints that block the very adaptation required for survival.
+The conch paradox, then, has two dimensions. The first is structural: every protective adaptation creates new vulnerabilities. The second is behavioral: when we feel threatened, we instinctively retreat into whatever shell we've built—even when that retreat guarantees our capture rather than our safety.
 
-What if the protective routines that make a relationship feel secure are exactly what prevent it from evolving when evolution becomes necessary?
-
-This is the conch paradox, and its corollary is unsettling: there is no universal resilience. Every adaptation that protects against one threat simultaneously creates vulnerability to another. Policy-makers who promise to "build resilience" without specifying "resilient to what?" are selling an illusion.
+This behavioral dimension would prove central to understanding my own patterns, though I wouldn't recognize it until I found myself staring at a conch painting from behind a locked office door, years after our Rotterdam crisis had ended.
 
 ### The journey ahead
 
@@ -116,13 +112,11 @@ The lesson isn't to reject protection entirely. It's to recognize that every pro
 
 The chapters that follow explore this difficult truth: we need both protection and flexibility, both specialized strength and adaptive capacity. The challenge is recognizing when our protective strategies are hardening into constraints, and maintaining the courage to transform when transformation becomes necessary.
 
-Neo needed those medical interventions—they saved his life. But we also needed to recognize when continued dependence on them would prevent us from ever going home. Caribbean islands need tourism revenue—it's not realistic to simply abandon their comparative advantage. But they also need to acknowledge when specialization leaves them exposed to catastrophic risk.
-
 At every scale—personal, organizational, national—the pattern is similar. True resilience requires holding our protections more lightly than we're comfortable with. It means building redundancy and "waste" as strategic reserves rather than pure efficiency. It means investing in options and flexibility even when optimization promises better returns. It means asking "what comes next?" rather than just "how do we preserve what we have?"
 
 Sometimes surrender isn't defeat but strategic flexibility. When we chose to trust Neo's body rather than pursue aggressive intervention, we weren't giving up—we were acknowledging that forcing optimization for one outcome might compromise capacities we couldn't yet see. The wisest protection is sometimes accepting uncertainty.
 
-In the chapters that follow, I'll take you through my family's medical crisis in Rotterdam, the systems that both saved and constrained us, and what these experiences reveal about how all of us—individuals, communities, nations—navigate the tension between protection and adaptation. You'll see how the same three-layered structure that protects the conch appears in hospital systems and economic policies. You'll witness how informal networks proved more resilient than formal ones during crisis, why efficiency and resilience exist in perpetual tension, and what it means to build systems capable of transformation rather than just persistence.
+In the chapters that follow, I'll take you through my family's medical crisis in Rotterdam, the systems that both saved and constrained us, and what these experiences reveal about how all of us—individuals, communities, nations—navigate the tension between protection and adaptation. You'll witness how informal networks proved more resilient than formal ones during crisis, why efficiency and resilience exist in perpetual tension, and what it means to build systems capable of transformation rather than just persistence.
 
 By the end of our journey together, I hope you'll never look at strength and vulnerability the same way again. You'll understand why sometimes the most courageous choice is to emerge from the shell rather than strengthen it, why the wisest protection often feels like surrender, and why true resilience requires embracing rather than eliminating uncertainty.
 
