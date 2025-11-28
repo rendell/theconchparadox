@@ -17,18 +17,17 @@
 
 - [[05-sensing-change|Chapter 5: Sensing Change]]
 - [[06-the-adaptation-dilemma|Chapter 6: The Adaptation Dilemma]]
-- [[07-the-institutional-shell|Chapter 7: Community Networks]]
-- [[08-community-networks|Chapter 8: The Regeneration Process]]
+- [[07-the-institutional-shell|Chapter 7: The Institutional shell]]
+- [[08-community-networks|Chapter 8: The Community Networks]]
 
 ---
 
 ## [[part-iii-the-paradox-revealed|Part III: The Paradox Revealed — Transformation and Its Limits]]
 
-- [[09-the-regeneration-process|Chapter 9: Beyond Recovery]]
-- [[10-beyond-recovery|Chapter 10: The Rotterdam Principle]]
+- [[09-the-regeneration-process|Chapter 9: The Regeneration Process]]
+- [[10-beyond-recovery|Chapter 10: Beyond Recovery]]
 - [[11-the-resilience-paradox|Chapter 11: The Resilience Paradox]]
-- [[12-the-resilience-paradox|Epilogue: Love Beyond Rotterdam]]
-- [[13-home|Chapter 13: Home]]
+- [[12-home|Chapter 12: Home]]
 
 ---
 

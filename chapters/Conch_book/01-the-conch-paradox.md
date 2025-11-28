@@ -66,9 +66,23 @@ Here's what it usually means in practice: bounce back to normal as quickly as po
 
 This is the resilience industrial complex: a self-perpetuating system where experts profit from teaching organizations how to build better versions of what they already have. It's comfortable because it doesn't require questioning your fundamental approach. You can purchase resilience assessments, implement resilience frameworks, and measure resilience metrics—all without actually transforming anything about how you operate.
 
-Economists have understood for decades that you can't simply stack improvements in complex systems—that fixing one problem can create others. But this insight rarely penetrates the resilience industry, which keeps selling the comfortable fiction that more protection equals more safety.
+### The additive fallacy
 
-The conch has been perfecting its shell for millions of years. By any conventional measure of resilience, it succeeded brilliantly—right up until the moment the definition of success changed entirely.
+The resilience industrial complex operates on what might be called additive logic—the intuition that protective measures stack like building blocks. More early warning systems plus better insurance plus stronger infrastructure equals more resilience. This feels obvious. It is also fundamentally flawed.
+
+In 1956, economists Richard Lipsey and Kelvin Lancaster proved something counterintuitive that development policy has been struggling to absorb ever since. They called it the "general theory of second best," and its core insight is devastating to additive thinking: in a world with multiple imperfections, fixing one imperfection doesn't necessarily improve outcomes—it might make them worse. When you can't achieve the ideal across all dimensions simultaneously, optimizing any single dimension may actually move you further from the best achievable outcome.
+
+Development economist Dani Rodrik has spent his career showing how this principle undermines policies that assume reforms can be stacked sequentially. The Washington Consensus—liberalize trade, strengthen property rights, reduce inflation, and prosperity follows—failed precisely because it treated complex economies as simple addition problems. The world, Rodrik reminds us, "is necessarily second-best, and our policy objectives are not as neatly separable as first-best economists assumed."
+
+There's a related insight that's even more unsettling. British economist Charles Goodhart observed that "when a measure becomes a target, it ceases to be a good measure." The moment you optimize for a specific resilience indicator, you change behavior in ways that undermine the indicator's validity. Build a resilience rating system, and organizations will game it. Measure recovery time, and you'll get faster recovery to fragile states. Target "bounce back," and you'll bounce back to exactly the vulnerabilities that made you fragile in the first place.
+
+The conch paradox extends this logic from policy to adaptation itself. Just as removing one economic distortion can amplify others, building protection against one threat can create vulnerability to others. There is no universal path to resilience because every protective adaptation reshapes the landscape of threats it was designed to address.
+
+This is what the resilience industrial complex cannot see. Their frameworks assume you can layer protections—income support plus information systems plus insurance products plus infrastructure investments—and resilience will emerge from the accumulation. But the theory of second best suggests something far more uncomfortable: in complex systems with existing constraints, each new layer of protection may create its own distortions, its own rigidities, its own blind spots.
+
+The conch has been perfecting its shell for millions of years. By any conventional measure of resilience, it succeeded brilliantly—right up until the moment the definition of success changed entirely. The threat wasn't bigger predators requiring thicker armor. The threat was a transformation of the environment that made the entire armor strategy irrelevant.
+
+Sometimes the shell itself is the problem.
 
 ### Understanding the paradox
 

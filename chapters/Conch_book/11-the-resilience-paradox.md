@@ -80,12 +80,29 @@ The honest answer is: sometimes. And perhaps that's the most important word in t
 
 The harder question is whether we must wait for the drought. Whether we can learn to see the seals while the oryx are still plentiful. Whether recognition can come before devastation forces it.
 
+### The first satisfying crack
+
+The irony wasn't lost on me that our marriage began showing stress fractures precisely when Neo's medical situation was finally stabilizing. He was home with us in the Rotterdam apartment, working toward his fit-to-fly test, and for the first time in months, we could glimpse the end of our medical journey. It should have been a period of relief and celebration.
+
+Instead, it became the moment when underlying tensions could no longer be suppressed by crisis solidarity.
+
+The trigger was something that seemed perfectly reasonable to me: taking advantage of being in the Netherlands to complete some mandatory PhD coursework. For months, I had put my doctoral studies completely on hold to focus on our family emergency. Now, with Neo stable and our departure date approaching, I saw an unexpected opportunity to complete several required courses while we were already in Europe.
+
+To me, this seemed like smart resource management. To Elena, it felt like abandonment.
+
+"Here you are again, thinking about your personal gain first," she said, her frustration evident. "I still need support, and you're already planning to be away for your own projects."
+
+We were back to the same fundamental disagreement about priorities, time allocation, and what constituted adequate partnership support. The crisis that had unified us against external threats hadn't resolved the underlying tensions about how we balanced individual ambitions with shared responsibilities.
+
+When we brought this to our social worker, she referred us to a psychologist who was swift and direct: "This seems like a personal matter between you two that goes beyond the case of the baby. You need to sort it out, but unfortunately, it goes beyond the scope of what I can assist you with."
+
+She was right. Our personal issues were deeply intertwined with our shared business, making time allocation decisions both relationship concerns and practical economic matters. But her conclusion left me with an uncomfortable recognition: everything had gone remarkably well with Neo's medical crisis, but there remained this persistent issue about how we functioned as partners when external threats weren't forcing us into solidarity.
 
 ### Mixed feelings
 
 Elena had seen it coming before I did.
 
-When we received Kayden's fit-to-fly clearance, I was ecstatic. Finally—after months of hospital corridors and borrowed apartments, after fighting bureaucracies and learning to navigate a medical system in a language that wasn't fully mine—we were going home. I threw myself into preparations, organizing the logistics of return with the same intensity I'd brought to mastering NICU equipment.
+When we received Neo's fit-to-fly clearance, I was ecstatic. Finally—after months of hospital corridors and borrowed apartments, after fighting bureaucracies and learning to navigate a medical system in a language that wasn't fully mine—we were going home. I threw myself into preparations, organizing the logistics of return with the same intensity I'd brought to mastering NICU equipment.
 
 But Elena's reaction was more complex. "I'm worried," she told me one evening, her voice careful. "What if we go back to the same old patterns?"
 
@@ -93,7 +110,7 @@ I reassured her immediately—of course not, we're changed people, we've been th
 
 But she kept raising it. Mixed feelings, she called them. Excitement about going home tangled with fear about what home might mean for us. At the time, I interpreted her concerns as anxiety that would resolve once we were actually back in familiar surroundings. I didn't recognize them as prophecy.
 
-Deep down, though, perhaps I shared her worry more than I admitted. Crisis had united us around clear objectives—Kayden's survival, navigating the medical system, managing the impossible logistics of life abroad with a critically ill infant. The roles were unambiguous. Success could be measured.
+Deep down, though, perhaps I shared her worry more than I admitted. Crisis had united us around clear objectives—Neo's survival, navigating the medical system, managing the impossible logistics of life abroad with a critically ill infant. The roles were unambiguous. Success could be measured.
 
 What would happen when the crisis ended and we had to be married again, not just crisis partners?
 
@@ -101,13 +118,13 @@ What would happen when the crisis ended and we had to be married again, not just
 
 One of my first priorities upon returning to Aruba was creating the home office I had always envisioned. After spending a year in cramped quarters we couldn't modify, I felt I deserved to finally have the personal workspace I had dreamed of during those long Rotterdam months.
 
-I approached the project with the same intensity I had brought to mastering medical equipment in the NICU. The room that had previously served as storage became my sanctuary, meticulously designed for both productivity and comfort. Custom shelves housed my entire book collection. A small refrigerator meant I never had to leave for refreshments. A large television screen enabled video conferences and data visualization.
-
-The walls displayed my Rotterdam paintings, including the conch shell piece that held pride of place directly across from my desk.
+I approached the project with the same intensity I had brought to mastering medical equipment in the NICU. The room that had previously served as storage became my sanctuary, meticulously designed for both productivity and comfort. Custom shelves housed my entire book collection. A small refrigerator meant I never had to leave for refreshments. A large television screen enabled video conferences and data visualization. The walls displayed my Rotterdam paintings, including the conch shell piece that held pride of place directly across from my desk.
 
 I spent weeks painting, organizing, and perfecting every detail until the space felt exactly right—a place where I could think deeply, work without interruption, and welcome clients or colleagues with pride. Everything was organized according to my preferences, designed for maximum efficiency and comfort.
 
 It became, without my conscious recognition at the time, my shell.
+
+The more beautiful and comfortable I made the office, the more time I wanted to spend there. When household tensions arose, I found myself gravitating toward this space where everything made sense, where I could focus on intellectually stimulating challenges rather than emotionally complex relationship dynamics that seemed to resist analytical solutions.
 
 ### When retreat becomes routine
 

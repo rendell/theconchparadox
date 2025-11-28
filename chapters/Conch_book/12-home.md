@@ -1,4 +1,4 @@
-## Chapter 13: Home
+## Chapter 12: Home
 
 ### The gravitational pull of the familiar
 
