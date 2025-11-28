@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11-the-resilience-paradox.md",
+                "file": "_feedback.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11-the-resilience-paradox"
+              "title": "_feedback"
             }
           }
         ],
@@ -200,9 +200,9 @@
   },
   "active": "5fbac0aa110b36b3",
   "lastOpenFiles": [
+    "11-the-resilience-paradox.md",
     "01-the-conch-paradox.md",
     "00-Table of Contents.md",
-    "11-the-resilience-paradox.md",
     "10-beyond-recovery.md",
     "_scratch.md",
     "00-preface.md",

@@ -62,6 +62,8 @@ completed
 This is a fascinating topic and a wonderful thesis, especially this “My research revealed a troubling pattern: the very adaptations that create resilience against familiar threats often leave systems most vulnerable to novel ones”
 Note the non-paradox of the cockroach… able to adapt in all climates and survive nearly any threat, it is as ubiquitous as it is disgusting.  Must we become like the roach to survive? Or is it better to fade away and leave our magnificent conch shells as our legacy.
 
+Working on it
+
 # Rhowena Dabian
 ma lese!! Bo story telling ability ta hopi bon. Dus e tekst ta skibi na un manera hopi appealing. Ma enjoy lese. Mi ta compronde unda bo kier bai, pero den mi opinion e ta un thema hopi broad. Dus je kan echt alle kanten op. Dus even mi no a follow e story line pero despues ma compronde kiko bo kier a bisa. Dor cu ba usa un broad subject as resilience paradox illustra den diferente aspecto. Dus e sequence con bo ta bai trese den bo buki pa mi personal opinion mester ta duidelijk aangeven pa e reader no perde e essentie di loke bo kier trese dilanti
 Bo a usa personal life and economic bow di un umbrella, dus esey ta tricky as your subject is very broad.
