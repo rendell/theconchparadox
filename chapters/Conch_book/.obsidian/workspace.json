@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-the-conch-paradox.md",
+                "file": "12-home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-the-conch-paradox"
+              "title": "12-home"
             }
           },
           {
@@ -200,11 +200,11 @@
   "active": "c653524ec053c33c",
   "lastOpenFiles": [
     "11-the-resilience-paradox.md",
+    "01-the-conch-paradox.md",
     "00-Table of Contents.md",
     "12-home.md",
     "12-the-resilience-paradox.md",
     "_feedback.md",
-    "01-the-conch-paradox.md",
     "10-beyond-recovery.md",
     "_scratch.md",
     "00-preface.md",
