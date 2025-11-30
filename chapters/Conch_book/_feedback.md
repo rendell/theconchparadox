@@ -6,7 +6,7 @@ I have two points of feedback:
 - I think you should perhaps make clearer in the beginning what resilience measures were taken in both cases (your son and SIDS), and why in both cases they created new vulnerabilities. This does become clear at the end, but you leave it a little bit to the reader to fill in these blanks. I would maybe add a single paragraph to the text where you make the comparison / analogy directly explicit by mentioning these four points (1: resilience measures taken for your son, 2: why they created new vulnerabilities, 3: resilience measures taken for SIDS, 4: why they create new vulnerabilities). This would help the reader to understand the analogy better, because it of course appears to be quite far-fetched when you first read it, while you then convincingly show that this is not the case.
 - Second, a question I have after reading this is: what would the alternative look like, i.e. what if you would not take any resilience measures and just decide to let go – both for your son and SIDS? I assume this will be explained later in the book, but if this is a preview of the entire book then you maybe want to provide some answers to this already. What will be the main takeaway / advice from the book, if it is not resilience measures? Is it simply accepting vulnerability? You mention for your son that letting go worked out well (I think?), but what is the lesson for SIDS? This is what most readers will be interested in. If SIDS should not take resilience measures, but should just accept vulnerability, what would that mean in practice, and how/why would that improve the situation?
 
-Completed. 
+Completed. Choose to not go deep in the second point but let the reader discover later on in the book.
 
 ## Amber van Veghel (Phd student in food security)
 
@@ -91,3 +91,6 @@ Uit meerdere trainingen die ik gevolgd heb,  ook gericht persoonlijk leiderschap
 Het is wel ook heel intrigerend vind ik zelf ook te kijken naar waar in huidig opzicht de zwakten zitten, juist ook iets heel sterks verborgen kan zijn.  Omdenken is een groot goed.  
 Ik lees er graag over want het helpt om vanuit andere perspectieven te benaderen. 
 Thanks! Ik kijk uit naar je publicatie.
+
+## Janot Mendler de Suarez
+Just Brilliant Rendell - I am still working on what exactly I think we need to move with clarity and purpose into the space of opportunity that is the chaos we are all swimming in, however your conch metaphor is definitely illuminating, especially in the way you embrace vulnerability in telling your personal story with such candor - it creates a compassionate context that is also a key to the transmutation we are both committed to - a process of co-discovery as much as doing;)

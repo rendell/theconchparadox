@@ -30,11 +30,7 @@ The minute you arrived, you noticed the difference in the children. These were i
 
 They accepted Amelie immediately. No questions about how long we'd stay, no concerns about our temporary address, no evaluation of whether we belonged. Just: "She can start Monday."
 
-The irony struck hard: schools with the best reputations had no room for a Dutch citizen facing medical emergency, while the "rough" school welcomed her immediately, surrounding her with other children who understood displacement.
-
-### When systems fail the vulnerable
-
-The weeks before Neo's birth settled into routines that revealed how protection systems work in practice. While we waited, the informal networks that had sustained us continued to expand and strengthen, filling gaps that formal institutions couldn't recognize.
+The irony struck hard: schools with the best reputations had no room for a Dutch citizen facing medical emergency, while the "rough" school welcomed her immediately, surrounding her with other children who understood displacement. While formal institutions evaluated our worthiness, informal networks simply showed up—filling gaps that official systems couldn't even recognize.
 
 ### Morning routines and colonial echoes
 
@@ -71,6 +67,22 @@ Even before Neo's birth, costs accumulated that would never appear in any accoun
 Those reserves gave us something precious: the ability to stop working when we needed to, to focus entirely on Neo without immediate financial panic. When we returned to Aruba, it was as if we'd never left—projects immediately resumed, clients reached out, work flowed back.
 
 But other costs were accumulating.
+
+During our third month in Rotterdam, I woke to find both my hands covered in an angry rash I'd never seen before. Concerned about infecting Neo, I immediately showed it to his head nurse.
+
+She looked at me with a serious expression. "This is not infectious. But this is a sign that your body is dealing with a lot of stress. You have been under prolonged stress for long periods of time. You and your wife have been strong for Neo. But this stressful situation is not healthy for your body."
+
+I protested. I felt fine—better than fine, actually. In Aruba, I was accustomed to getting migraine headaches during stressful periods. Since arriving in the Netherlands, I had no migraines whatsoever. I was functioning on little sleep without apparent difficulty, maintaining high energy throughout.
+
+Then I saw the sadness in her eyes, and I felt my own eyes burn.
+
+Because I realized she was right. This wasn't sustainable. I was functioning on adrenaline, but I wouldn't be able to avoid the eventual impact. The rash was just one manifestation; there would be others in ways I might not expect.
+
+You can't run on adrenaline indefinitely without repercussions.
+
+There were other physical warnings I initially dismissed: chest pain and a numb feeling in one shoulder that scared me enough to visit the emergency room, fearing it was heart-attack related. This too turned out to be stress-induced, but it frightened me.
+
+Now, years later, I can calculate the permanent costs. I aged considerably during that one year. I never fully recovered my old sleeping patterns. I never resumed the sports routine that had been part of my life for years. These aren't dramatic losses, and I would never trade them for a different outcome. We went all in knowingly, and I have no regrets. But they are real costs that will never be recovered—the metabolic price of sustained protection.
 
 Amelie aged that winter in ways that had nothing to do with her birthday. She learned not to ask certain questions, to read our faces before sharing school excitement, to check on Lay constantly—bringing her water, asking if the baby was okay. Her childhood interrupted by adult worries she shouldn't have carried.
 

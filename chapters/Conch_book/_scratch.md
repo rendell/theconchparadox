@@ -33,3 +33,4 @@ This question—_resilience for what?_—can echo through the entire book:
 - Chapter 12 (Your revelation): The shell you built preserved your professional self but constrained your relational self—a choice you made without realizing you were making it
 
 **The fisherman line** connects directly to your SIDS research and your University of Aruba food security work. It's not abstract—it's the actual stakes for the communities you study.
+
