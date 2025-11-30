@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_scratch.md",
+                "file": "01-the-conch-paradox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_scratch"
+              "title": "01-the-conch-paradox"
             }
           },
           {
@@ -199,6 +199,7 @@
   },
   "active": "c653524ec053c33c",
   "lastOpenFiles": [
+    "_scratch.md",
     "_feedback.md",
     "_research.md",
     "10-beyond-recovery.md",
@@ -207,7 +208,6 @@
     "04-the-price-of-protection.md",
     "11-the-resilience-paradox.md",
     "01-the-conch-paradox.md",
-    "_scratch.md",
     "00-Table of Contents.md",
     "00-preface.md",
     "12-home.md",
