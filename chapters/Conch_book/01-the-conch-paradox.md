@@ -48,7 +48,7 @@ For Small Island Developing States, the resilience measures are economic: touris
 
 Same pattern, different scale. Protection creating constraint. Strength becoming weakness when the rules change.
 
-The pattern was consistent across every domain I examined: the more specialized the adaptation, the more vulnerable the system became to unprecedented change. It wasn't about any individual decision being wrong—it was about how optimization for known threats systematically creates exposure to novel ones.
+The pattern was consistent across every domain I examined. It wasn't about any individual decision being wrong—it was about how optimization for known threats systematically creates exposure to novel ones.
 
 
 ### The resilience industrial complex

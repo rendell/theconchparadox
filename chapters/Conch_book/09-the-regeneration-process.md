@@ -106,18 +106,38 @@ We passed. Neo's lungs, strengthened by months of careful rehabilitation, could 
 
 But passing the test felt less like victory than like permission to begin something new. We weren't returning to our old life in Aruba—we were bringing a transformed family to a place that had no idea how much we had changed.
 
-"What happens when the crisis ends?" Lay had asked weeks earlier.
-
-Standing in our silent Rotterdam apartment, watching Neo breathe steadily without machines for the first time in his life, I understood what she meant. The crisis hadn't ended—it had transformed into something else. The question was whether we could transform with it, or whether we'd remain frozen in the operational efficiency that had saved Neo's life but couldn't sustain our marriage.
-
 During those final weeks before our flight, as we sorted through months of accumulated medical supplies and baby equipment, Amelie began making requests about what she wanted when we returned home.
 
 "Dad, when we get back to Aruba, I want us to get backyard chickens again so we have fresh eggs at home," she said repeatedly, her voice carrying the weight of a child who had spent a year displaced from everything familiar.
 
 I promised her we would. Her request carried more weight than she knew—it wasn't just about eggs, but about reclaiming the rhythms and rituals that had defined our family before everything changed. Not returning to who we had been, but honoring our children's need for continuity within our transformed reality.
 
+## The warning I didn't hear
+
+But that evening, after the celebration had faded and Amelie was asleep, Lay grew quiet. I was practically bouncing around our cramped apartment, already imagining walking barefoot in our yard, sleeping in our own bed, reclaiming the comfortable life we had left behind more than a year earlier.
+
+"I'm worried," she said finally, watching me.
+
+"Worried? We passed! We're going home."
+
+"I know." She paused, choosing her words carefully. "But what if we go back and fall into the same old patterns as before?"
+
+Her words landed like cold water on my euphoria. Here I was, finally able to envision our return to paradise, and she was introducing doubt into what should have been pure celebration.
+
+"Of course not," I reassured her, perhaps too quickly. "We're changed people now. We've been through too much together to go backwards."
+
+She didn't argue. But I could see she wasn't convinced. She kept returning to this theme over our final weeks in Rotterdam—mixed feelings about a return that should have been purely joyful.
+
+I chose to focus on the practical excitement of going home rather than engaging with her deeper concerns. That choice, in retrospect, was perhaps the first sign that I was already beginning to retreat from the emotional work our relationship required.
+
+## What we learned
+
 The conch's biological wisdom reminds us that true regeneration creates something both stronger and different from what existed before. The shell repairs are visible, permanent modifications that enhance protection while marking survival. Communities and families that emerge from crisis carry similar marks—scars that tell stories of survival, adaptations that provide new strength, and wisdom that comes only from navigating uncertainty.
 
 Our family's regeneration process taught us that healing is neither linear nor complete. It is the ongoing work of living fully within transformed circumstances, using hard-won knowledge to build better responses to future challenges, and finding meaning in the journey rather than seeking a return to an idealized past.
 
 The regeneration process had taught us that healing creates something both stronger and different from what existed before. But perhaps the most profound challenge wasn't recovering from crisis—it was maintaining the wisdom we had gained during it.
+
+Lay had sensed this before I could. Her question hung in the air of our Rotterdam apartment, unanswered: _What if we go back and fall into the same old patterns?_
+
+I wouldn't understand until much later that she had seen clearly what I refused to examine.
