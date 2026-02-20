@@ -14,7 +14,7 @@
             color: #333;
         }
         nav {
-            background: #081f2f;
+            background: #2bbcb6;
             padding: 20px;
             text-align: center;
             position: sticky;
@@ -22,33 +22,34 @@
             z-index: 100;
         }
         nav a {
-            color: white;
+            color: black;
             text-decoration: none;
             padding: 10px 20px;
             margin: 0 10px;
             border-radius: 5px;
+            font-weight: bold;
             transition: all 0.3s;
         }
-        nav a:hover { background: #fec377; }
+        nav a:hover { background: #E8927C; color: white; }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 40px 20px;
         }
         h1 {
-            color: #457d8a;
+            color: #2bbcb6;
             font-size: 2.5em;
             margin-bottom: 10px;
         }
         h2 {
-            color: #fec377;
-            border-bottom: 3px solid #fec377;
+            color: #E8927C;
+            border-bottom: 3px solid #E8927C;
             padding-bottom: 10px;
             margin-top: 40px;
             margin-bottom: 20px;
         }
         h3 {
-            color: #457d8a;
+            color: #2bbcb6;
             margin-top: 30px;
         }
         .intro-box {
@@ -56,22 +57,22 @@
             padding: 25px;
             border-radius: 10px;
             margin: 30px 0;
-            border-left: 5px solid #fec377;
+            border-left: 5px solid #E8927C;
         }
         .audio-box {
-            background: #081f2f;
+            background: #2bbcb6;
             padding: 25px;
             border-radius: 10px;
             margin: 30px 0;
             text-align: center;
         }
         .audio-box h3 {
-            color: #fec377;
+            color: black;
             margin-top: 0;
             margin-bottom: 15px;
         }
         .audio-box p {
-            color: white;
+            color: black;
             margin-bottom: 20px;
         }
         .spotify-button {
@@ -89,7 +90,7 @@
             transform: translateY(-2px);
         }
         .toc {
-            background: #fef8f3;
+            background: #f4fafa;
             padding: 25px;
             border-radius: 10px;
             margin: 30px 0;
@@ -103,8 +104,8 @@
         }
         .part-title {
             font-weight: 700;
-            color: #457d8a;
-            font-size: 1.2em;
+            color: #2bbcb6;
+            font-size: 1.1em;
             margin-bottom: 12px;
         }
         .part-focus {
@@ -121,7 +122,7 @@
             margin: 6px 0;
             color: #555;
             padding-left: 15px;
-            border-left: 2px solid #fec377;
+            border-left: 2px solid #E8927C;
         }
         .back-matter {
             background: #f0f4f5;
@@ -129,7 +130,7 @@
             border-radius: 5px;
             margin-top: 25px;
         }
-        .back-matter .part-title { color: #081f2f; }
+        .back-matter .part-title { color: #333; }
         .preview-content {
             margin: 40px 0;
             text-align: justify;
@@ -139,32 +140,80 @@
             text-align: center;
             margin: 60px 0;
             font-size: 1.5em;
-            color: #fec377;
+            color: #E8927C;
         }
         blockquote {
-            border-left: 4px solid #fec377;
-            padding-left: 20px;
+            border-left: 4px solid #E8927C;
+            padding: 15px 20px;
             margin: 30px 0;
             font-style: italic;
             color: #666;
+            background: #fdf6f4;
+        }
+        .figure-block {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .figure-block img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .figure-caption {
+            font-size: 0.88em;
+            color: #666;
+            font-style: italic;
+            margin-top: 12px;
+            text-align: left;
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .insight-box {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 25px 30px;
+            margin: 50px 0;
+            font-size: 0.93em;
+        }
+        .insight-box .box-title {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            font-size: 1em;
+            margin-bottom: 16px;
+            color: #333;
+        }
+        .insight-box .box-section-title {
+            font-weight: bold;
+            font-family: Arial, sans-serif;
+            margin-top: 16px;
+            margin-bottom: 6px;
+            color: #333;
+        }
+        .insight-box p {
+            margin: 6px 0;
+            font-family: Arial, sans-serif;
+            color: #444;
+            line-height: 1.6;
         }
         .cta-box {
-            background: #081f2f;
-            color: white;
+            background: #2bbcb6;
+            color: black;
             padding: 30px;
             border-radius: 10px;
             text-align: center;
             margin: 50px 0;
         }
         .cta-box h3 {
-            color: #fec377;
+            color: black;
             margin-top: 0;
         }
         .button {
             display: inline-block;
             padding: 12px 30px;
             margin: 10px;
-            background: #fec377;
+            background: #E8927C;
             color: white;
             text-decoration: none;
             border-radius: 5px;
@@ -172,12 +221,14 @@
             transition: all 0.3s;
         }
         .button:hover {
-            background: #457d8a;
+            background: #333;
             transform: translateY(-2px);
         }
+        a { color: #2bbcb6; }
+        a:hover { color: #E8927C; }
         footer {
-            background: #081f2f;
-            color: white;
+            background: #2bbcb6;
+            color: black;
             text-align: center;
             padding: 20px;
             margin-top: 60px;
@@ -194,20 +245,20 @@
 
     <div class="container">
         <h1>Preview: The Conch Paradox</h1>
-        <p style="font-size: 1.2em; color: #457d8a; text-align: center;">Rethinking Resilience</p>
+        <p style="font-size: 1.2em; color: #E8927C; text-align: center;">Rethinking Resilience</p>
 
         <div class="intro-box">
             <p><strong>Read the Preface and opening chapter of The Conch Paradox below.</strong> This preview introduces the book's central metaphor and the personal journey that inspired it.</p>
         </div>
 
         <div class="audio-box">
-            <h3>🎧 Listen to the Preface</h3>
+            <h3>🎧 Listen to the preface</h3>
             <p>Prefer to listen? Hear the author read the preface in his own voice.</p>
             <a href="https://spotifycreators-web.app.link/e/JQuDMOy84Yb" class="spotify-button" target="_blank">Listen on Spotify</a>
         </div>
 
         <div class="toc">
-            <h2>Book Structure</h2>
+            <h2>Book structure</h2>
             
             <div class="part-section">
                 <div class="part-title">PART I: THE SHELL — PROTECTION AND ITS COSTS</div>
@@ -273,7 +324,7 @@
 
             <p>Back at the hotel, my wife Lay needed rest. I needed to move. The Erasmus Bridge loomed in the winter darkness, Rotterdam's iconic "Swan" rising against the frozen sky.</p>
 
-            <p>Rotterdam had always struck me as unapologetically modern. Other Dutch cities preserved their Golden Age charm, their canal houses and church spires. Rotterdam couldn't. The bombing had seen to that. So the city rebuilt without apology, without pretending to be something old. The bridge wasn't trying to look like a normal bridge. It was bold. One pylon instead of two. Cables at unlikely angles. A shape that photographers loved precisely because it refused convention.</p>
+            <p>Rotterdam had always struck me as unapologetically modern. Other Dutch cities preserved their Golden Age charm, their canal houses and church spires. Rotterdam couldn't. The bombing during the second world war had seen to that. So the city rebuilt without apology, without pretending to be something old. The bridge wasn't trying to look like a normal bridge. It was bold. One pylon instead of two. Cables at unlikely angles. A shape that photographers loved precisely because it refused convention.</p>
 
             <p>What I hadn't grasped as a student was that the boldness served a purpose. The asymmetry wasn't just aesthetic defiance. It was how you achieve flexibility and strength at the same time. The form that looked like Rotterdam making a statement was Rotterdam solving an engineering problem.</p>
 
@@ -315,7 +366,7 @@
 
             <h2>Chapter 1: The Conch Paradox</h2>
 
-            <p>The Erasmus Bridge stretched before me in the frozen Dutch night, its asymmetrical silhouette cutting through the darkness. I was dressed absurdly for a January night in Rotterdam—squeezed into winter sports clothes from my student days that made me feel like an overstuffed sausage, borrowed women's gloves from Lay, shorts—whatever we'd thrown into bags during our panicked departure from Aruba. Walking back to our hotel after what I can only describe as a breakdown. Exhausted beyond measure. Emptied of everything.</p>
+            <p>The Erasmus Bridge stretched before me in the frozen Dutch night, its asymmetrical silhouette cutting through the darkness. I was dressed absurdly for a January night in Rotterdam — squeezed into winter sports clothes from my student days that made me feel like an overstuffed sausage, borrowed women's gloves from Lay, shorts — whatever we'd thrown into bags during our panicked departure from Aruba. Walking back to our hotel after what I can only describe as a breakdown. Exhausted beyond measure. Emptied of everything.</p>
 
             <p>Just forty-eight hours earlier, we had been under the Aruban sun. Now my wife and I were navigating a foreign medical system, our unborn son's life hanging on decisions no parent should have to make. That evening, we had chosen to forgo experimental surgery and trust his body to heal itself, a surrender that felt like either wisdom or failure, depending on which hour of the night you asked me.</p>
 
@@ -369,6 +420,8 @@
 
             <p>It wasn't about any individual decision being wrong. It was about how optimization for known threats systematically creates exposure to novel ones. Protection creating constraint. Strength becoming weakness when the rules change.</p>
 
+            <p>Once I saw this pattern in my son's care, I couldn't unsee it in my own work.</p>
+
             <h3>The resilience industrial complex</h3>
 
             <p>I have a confession to make: I was part of the problem before I understood what the problem was.</p>
@@ -383,21 +436,23 @@
 
             <p>This unease is what eventually drove me to study resilience seriously. I needed to understand what I'd been selling.</p>
 
-            <p>What I discovered was a self-perpetuating system I came to think of as the "resilience industrial complex." The word dominates the global stage. World leaders build summits around it. Organizations hire Chief Resilience Officers. Consultants sell resilience frameworks. It's become like bacon or chocolate. You can add it to almost anything for extra flavor. Resilient cities. Resilient supply chains. Resilient leadership. Everyone is building resilience. No one can quite define what it means.</p>
+            <p>What I discovered was a self-perpetuating system I came to think of as the "resilience industrial complex." The word dominates the global stage. World leaders build summits around it. Organizations hire Chief Resilience Officers. Consultants sell resilience frameworks. It's become like bacon. You can add it to almost anything for extra flavor. Resilient cities. Resilient supply chains. Resilient leadership. Everyone is building resilience. No one can quite define what it means.</p>
 
             <p>Important work gets rebranded with resilience language not because it genuinely involves adaptive capacity, but because resilience unlocks funding streams that "routine infrastructure maintenance" cannot. It's like describing a lunch menu as a "nutritional intervention strategy."</p>
 
-            <p>In practice, it usually means: bounce back to normal as quickly as possible. Build higher seawalls. Develop faster recovery protocols. Add more redundancy to critical systems. These aren't wrong, exactly. But they assume the future will look like the past, just with bigger waves.</p>
+            <p>In practice, it usually means: bounce back to normal as quickly as possible. Build higher seawalls. Develop faster recovery protocols. Add more redundancy to critical systems. These aren't wrong, exactly. But they assume the future will look like the past — <em>just bigger waves, same ocean</em>. What if it's a different ocean entirely?</p>
 
             <p>The resilience industrial complex is comfortable because it doesn't require questioning your core approach. You can purchase resilience assessments, implement resilience frameworks, measure resilience metrics, all without transforming anything about how you operate.</p>
 
             <p>Nassim Taleb exposed part of this problem. His <em>Black Swan</em> revealed how spectacularly we fail at predicting the rare events that reshape everything, the outliers our models systematically miss. The conch paradox addresses something different. The problem isn't only that we can't predict black swans. It's that our successful adaptations to yesterday's challenges become tomorrow's constraints. The conch didn't fail to predict warming oceans. It simply couldn't stop being a conch.</p>
 
+            <p>This isn't just a metaphor. In 1956, Richard Lipsey and Kelvin Lancaster proved something that should have reshaped how we think about reform: in a world with multiple imperfections, fixing one imperfection doesn't necessarily improve outcomes. It might make them worse. They called it the general theory of second best. Dani Rodrik has spent his career showing how this principle undermines development policy that assumes reforms can be stacked like building blocks. You can't just add more protection, more insurance, more early warning systems and assume the sum is greater resilience. Each intervention changes the system it's trying to fix. The conch paradox extends this logic beyond policy to adaptation itself. Building protection against one threat can create vulnerability to others. There is no universal path to resilience because every protective adaptation reshapes the threat landscape it was designed to address.</p>
+
             <h3>The dead-end problem</h3>
 
             <p>But there's a worse problem. The resilience discourse has a fatal blind spot: it focuses entirely on how well you can absorb shocks while traveling your current path. It never asks whether the path itself leads somewhere worth going.</p>
 
-            <p>Economists call it path-dependency, and once you see it, you can't unsee it. Past choices constrain future options until alternatives become nearly impossible to pursue. Each investment in your current approach makes it harder to change direction. Each success reinforces the trajectory. The better you get at what you do, the more difficult it becomes to do anything else.</p>
+            <p>There's a name for this trap: path-dependency. Once you see it, you can't unsee it. Past choices constrain future options until alternatives become nearly impossible to pursue. Each investment in your current approach makes it harder to change direction. Each success reinforces the trajectory. The better you get at what you do, the more difficult it becomes to do anything else.</p>
 
             <p>In 2009, researchers Sam Cole and Victoria Razak published a study on Aruba's tourism carrying capacity. Their message was clear: the island was approaching its limits. Limit growth. Focus on quality. Protect what makes Aruba worth visiting.</p>
 
@@ -411,6 +466,8 @@
 
             <p>The truth is messier. When Aruba's oil refinery closed in 1985, there was no grand deliberation, no stakeholder consultations weighing alternative futures. There was fiscal panic. The government needed revenue. The island needed foreign exchange. Tourism wasn't chosen through careful resilience analysis. It was the only option that could generate money fast enough to keep the lights on.</p>
 
+            <p>But there's a difference between choosing tourism and going all in. The initial pivot was survival. What followed was appetite. The government expanded hotel capacity well beyond what advisors recommended, and the rewards came so fast that restraint looked foolish. Except the overshoot created problems the island had never faced. Labor shortages forced the importation of workers who needed housing, services, infrastructure of their own. Each expansion funded the justification for the next. Forty years later, Aruba is still making the same bet at larger stakes.</p>
+
             <p>An economist colleague who spent decades advising Caribbean governments once put it bluntly: "You're describing path dependency as if it's about tourism. It's not. It's about public finance." He's right, and the implications run deeper than I initially understood. Chronic fiscal stress doesn't just constrain choices; it makes strategic thinking itself nearly impossible. I'll return to this insight later, when I examine how institutions become trapped in their own protective shells.</p>
 
             <p>When COVID-19 grounded international flights, we discovered we had spent decades becoming resilient to everything except the one thing that actually happened. We could weather hurricanes, financial crises, regional instability. We had proven this repeatedly. What we couldn't survive was the disappearance of tourists themselves. Our resilience had been path-dependent: extraordinarily robust along one trajectory, catastrophically fragile if that trajectory was blocked.</p>
@@ -418,6 +475,15 @@
             <p>The question conventional frameworks never ask is: resilient toward what end? You can be perfectly resilient heading toward a cliff.</p>
 
             <p>The conch has been perfecting its shell for millions of years. By any conventional measure of resilience, it succeeded brilliantly, right up until the moment the definition of success changed entirely. The threat wasn't bigger predators requiring thicker armor. The threat was a transformation of the environment that made the entire armor strategy irrelevant.</p>
+
+            <p>The evidence for this runs deeper than environmental change. Scientists have spent forty years trying to save the queen conch through hatchery programs, and the results read like a parable. The logic was intuitive: breed conch in captivity, protect the juveniles from predators, grow them quickly, release them into the wild to rebuild depleted populations. Marine biologist Allan Stoner reviewed four decades of these experiments across the Caribbean. What he found should trouble anyone who believes that protection, applied with enough resources and good intentions, can substitute for the hard-won capacities that only develop through exposure to real conditions. Hatchery-raised conch, protected and fed in controlled environments, develop shells roughly forty percent lighter than wild conch of the same size. Their lateral spines, the sharp protrusions that deter predators, grow stunted. They don't bury themselves in sand, a basic survival behavior that wild juveniles learn from their first days on the seafloor. They can't identify natural food sources. They fail to recognize predators. The longer they stay in the protected environment, the worse these deficits become.</p>
+
+            <div class="figure-block">
+                <img src="images/stoner-figure1.jpg" alt="Shell morphology of juvenile queen conch under different growth conditions">
+                <p class="figure-caption"><strong>Figure 1.</strong> Shell morphology of juvenile queen conch under different growth conditions. (A, B) Slow-growing wild conch from nursery grounds in The Bahamas, with heavy shells and long lateral spines. (C, D) Rapid-growing conch typical of hatchery culture, with lighter shells and stunted spines. Reproduced from Stoner (2019) with permission.</p>
+            </div>
+
+            <p>The hatcheries were pushing for rapid growth, producing conch that looked large but were structurally fragile. Speed under protection came at the cost of genuine resilience. When these optimized, fast-growing juveniles were released into Caribbean waters, mortality rates ran roughly double those of wild conch in the same habitat. In the most comprehensive field trial, over five thousand hatchery-raised conch tracked across seven and a half months, only nine percent survived. After that experiment, the surviving hatchery shells looked indistinguishable from wild ones. It appeared that the protected conch had adapted. But the researchers suspected otherwise. The convergence wasn't learning. It was selection. The weak had died, leaving behind only those whose traits happened to be adequate. What looked like successful adaptation was catastrophic loss wearing the mask of convergence. One more finding stays with me. Isolated conch, released individually or in small numbers, died at dramatically higher rates than those released in aggregations. Community wasn't incidental to survival. It was survival infrastructure. Four decades, millions of dollars, and the conclusion remains: every effort should be made to conserve wild, self-sustaining populations rather than attempting to rebuild them through protection after collapse. The organism I chose as a metaphor for how protection becomes a trap has been demonstrating this under laboratory conditions since the 1980s. Conch raised in safety develop the appearance of strength without its substance. They grow fast but break easily. They reach impressive size while losing the instincts that keep them alive.</p>
 
             <p>Sometimes the shell itself is the problem.</p>
 
@@ -433,6 +499,8 @@
 
             <p>The conch paradox has three dimensions. The first is structural: every protective adaptation creates new vulnerabilities. The second is directional: you can be perfectly resilient while heading toward disaster. The third is behavioral: when we feel threatened, we instinctively retreat into whatever shell we've built, even when that retreat guarantees our capture rather than our safety.</p>
 
+            <p>What I would discover over the months and years that followed is that these three dimensions don't just apply at one scale. The same paradox operates in the body, the family, the organization, and the economy. Kayden's medical protections creating new dependencies. Our family's coping mechanisms becoming barriers to intimacy. The World Bank's institutional expertise becoming rigidity. Aruba's tourism success becoming a trap. The scale changes. The mechanism doesn't.</p>
+
             <p>Can the very adaptations that ensure survival in one era guarantee extinction in another?</p>
 
             <p>This question would haunt the months ahead as we navigated systems designed to protect but built to constrain.</p>
@@ -443,20 +511,35 @@
 
             <p>The challenge is subtler: noticing when your walls become your cage, when your chosen path is foreclosing alternatives, and finding the courage to transform before transformation is forced upon us. Sometimes surrender isn't defeat but strategic flexibility. Sometimes the wisest protection feels like letting go.</p>
 
-            <p>I learned this walking back across the Erasmus Bridge that January night, the cold biting through my gloves, the city lights blurred by tears I'd finally allowed myself. The bridge held. It was built for exactly this—flexibility and strength at the same time. I wasn't sure I was.</p>
+            <p>I learned this walking back across the Erasmus Bridge that January night, the cold biting through my gloves, the city lights blurred by tears I'd finally allowed myself. The bridge held. It was built for exactly this — flexibility and strength at the same time. I wasn't sure I was.</p>
 
             <p>That experience taught me something the resilience frameworks never captured: the future won't look like the past, no matter how perfectly we've adapted to present conditions. And sometimes the only way forward is to let go of everything you've built and trust that you'll discover what you need when you need it.</p>
+
+            <div class="insight-box">
+                <div class="box-title">The Conch Paradox in Practice</div>
+
+                <div class="box-section-title">The principle</div>
+                <p>Every protective adaptation simultaneously creates new vulnerability. Optimization for known threats systematically generates exposure to novel ones. There is no universal path to resilience because every protective measure reshapes the threat landscape it was designed to address.</p>
+
+                <div class="box-section-title">Three dimensions introduced</div>
+                <p><em>Structural:</em> Protection creates constraint. The conch's shell defeats predators but prevents escape from fishermen. Medical interventions that saved my son created dependencies we couldn't sustain at home.</p>
+                <p><em>Directional:</em> Resilience without direction is dangerous. Aruba became extraordinarily robust along one economic trajectory and catastrophically fragile when that trajectory was blocked. Path dependency means you can be perfectly resilient heading toward a cliff.</p>
+                <p><em>Behavioral:</em> Retreat instinct under threat. The conch seals itself inside its shell when danger approaches, which works against sharks and guarantees capture by fishermen. We do the same: withdrawing into familiar defenses precisely when we need to adapt.</p>
+
+                <div class="box-section-title">The economics</div>
+                <p>Lipsey and Lancaster's general theory of second best (1956) proves that in a world with multiple imperfections, fixing one doesn't necessarily improve outcomes. Rodrik extends this to development policy. The conch paradox extends it further: building protection against one threat can create vulnerability to others. This is why the resilience industrial complex, with its additive logic of stacking interventions, fundamentally misunderstands how complex systems behave.</p>
+            </div>
         </div>
 
         <div class="cta-box">
             <h3>Want to read the complete story?</h3>
             <p>Subscribe to receive launch updates, exclusive preview chapters, and behind-the-scenes insights from the research journey.</p>
-            <a href="subscribe.html" class="button">Subscribe for Updates</a>
+            <a href="subscribe.html" class="button">Subscribe for updates</a>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Rendell de Kort | Development Economist | Expected Release: Q1 2026</p>
+        <p>&copy; 2026 Rendell de Kort | Shoco Press | Launch: March 18, 2026</p>
     </footer>
 </body>
 </html>
