@@ -59,6 +59,7 @@
             color: #2bbcb6;
             text-align: center;
             font-size: 2.5em;
+            margin-bottom: 5px;
         }
         
         h2 {
@@ -75,6 +76,7 @@
             text-align: center;
             color: #E8927C;
             font-size: 1.3em;
+            margin-top: 0;
         }
         
         .author {
@@ -93,6 +95,15 @@
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
         }
         
+        .launch-date {
+            text-align: center;
+            font-size: 1.1em;
+            color: #E8927C;
+            font-weight: bold;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+        
         blockquote {
             border-left: 5px solid #E8927C;
             padding-left: 20px;
@@ -100,6 +111,87 @@
             font-style: italic;
             background: #fdf6f4;
             padding: 20px;
+        }
+        
+        /* Featured in section */
+        .featured-in {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .featured-in p {
+            font-size: 0.85em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        
+        .featured-in a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        .featured-in a:hover {
+            color: #2bbcb6;
+        }
+        
+        .featured-in .wef-title {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 0.95em;
+            color: #666;
+            display: block;
+            margin-top: 5px;
+        }
+        
+        /* Endorsements */
+        .endorsements {
+            margin: 40px 0;
+        }
+        
+        .endorsements h2 {
+            text-align: center;
+            border-bottom: none;
+            font-size: 1.2em;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: normal;
+        }
+        
+        .endorsement {
+            margin: 25px 0;
+            padding: 20px 25px;
+            background: #fdf6f4;
+            border-left: 4px solid #E8927C;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .endorsement p {
+            margin: 0 0 10px 0;
+            font-style: italic;
+            line-height: 1.7;
+        }
+        
+        .endorsement .attribution {
+            font-style: normal;
+            font-weight: bold;
+            color: #555;
+            font-size: 0.9em;
+        }
+        
+        .endorsement .role {
+            font-style: normal;
+            font-weight: normal;
+            color: #888;
+            font-size: 0.85em;
         }
         
         .buttons {
@@ -150,11 +242,19 @@
     <div class="container">
         <h1>The Conch Paradox</h1>
         <p class="subtitle">Rethinking Resilience</p>
-        <p class="author">By Rendell de Kort<br>
-        Development Economist, Principal at Cornerstone Economics, and PhD researcher studying economic resilience in Small Island Developing States</p>
+        <p class="author">By Rendell de Kort</p>
         
         <div class="book-cover">
             <img src="images/Front_Cover.png" alt="The Conch Paradox Book Cover">
+            <p class="launch-date">Arriving March 18, 2026</p>
+        </div>
+        
+        <div class="featured-in">
+            <p>As featured in</p>
+            <a href="https://www.weforum.org/stories/2026/02/what-small-caribbean-islands-reveal-about-a-blind-spot-in-resilience-thinking/" target="_blank" rel="noopener">
+                World Economic Forum
+                <span class="wef-title">"What small islands reveal about a blind spot in resilience thinking"</span>
+            </a>
         </div>
         
         <blockquote>
@@ -163,7 +263,7 @@
         
         <h2>When protection becomes the problem</h2>
         
-        <p>This book is about a dangerous misconception that shapes how we respond to every threat we face — from medical emergencies to economic crises to climate change. We believe that building stronger defenses makes us safer. We assume that specialized protection reduces vulnerability.</p>
+        <p>This book is about a dangerous misconception that shapes how we respond to every threat we face, from medical emergencies to economic crises to climate change. We believe that building stronger defenses makes us safer. We assume that specialized protection reduces vulnerability.</p>
         
         <p>We're wrong.</p>
         
@@ -171,26 +271,55 @@
         <p>When our unborn son was diagnosed with a life-threatening diaphragmatic hernia, my family was thrust from the tropical certainty of Aruba into the medical complexity of Rotterdam. The decision to save his life required surrendering control of it entirely. This journey through impossible choices revealed profound truths about resilience, vulnerability, and the paradoxical nature of strength.</p>
         
         <h3>The professional insight</h3>
-        <p>As an economist studying Small Island Developing States, I've spent years analyzing how islands like Aruba navigate their unique vulnerabilities. My research revealed a troubling pattern: the very adaptations that create resilience against familiar threats often leave systems most vulnerable to novel ones.</p>
+        <p>As a development economist and World Bank consultant studying Small Island Developing States, I've spent years analyzing how islands like Aruba navigate their unique vulnerabilities. My research revealed a troubling pattern: the very adaptations that create resilience against familiar threats often leave systems most vulnerable to novel ones.</p>
         
         <h3>The conch paradox</h3>
-        <p>The queen conch, native to Caribbean waters, embodies this paradox perfectly. Its magnificent shell — evolved over millions of years for protection against predators — has become the constraint threatening the species' survival as oceans warm and ecosystems shift. Perfect adaptation to current conditions creates dangerous brittleness when environments change.</p>
+        <p>The queen conch, native to Caribbean waters, embodies this paradox perfectly. Its magnificent shell, evolved over millions of years for protection against predators, has become the constraint threatening the species' survival as oceans warm and ecosystems shift. Perfect adaptation to current conditions creates dangerous brittleness when environments change.</p>
         
         <p>This pattern appears everywhere: island economies specialized for tourism, medical systems optimized for efficiency, marriages built on comfortable routines, companies invested in core competencies. The shell that protects also constrains. Strength and weakness are two faces of the same choice.</p>
         
         <h2>What shells have you built?</h2>
         
-        <p><em>The Conch Paradox</em> weaves together personal narrative, economic research, and natural history to explore how we might navigate an increasingly uncertain world — not by building stronger shells, but by developing the wisdom to know when protection becomes constraint, and when transformation becomes necessary.</p>
+        <p><em>The Conch Paradox</em> weaves together personal narrative, economic research, and natural history to explore how we might navigate an increasingly uncertain world, not by building stronger shells, but by developing the wisdom to know when protection becomes constraint, and when transformation becomes necessary.</p>
         
         <div class="buttons">
             <a href="preview.html" class="button pink">Read preview</a>
-            <a href="subscribe.html" class="button teal">Subscribe for updates</a>
+            <a href="subscribe.html" class="button teal">Get notified at launch</a>
             <a href="about.html" class="button dark">About the author</a>
         </div>
+        
+        <div class="endorsements">
+            <h2>Advance praise</h2>
+            
+            <div class="endorsement">
+                <p>"A real tour de force that reconciles a paradox allowing us to conclude: there is no universal resilience. Policy-makers need to take the Conch Corollary to heart."</p>
+                <span class="attribution">John Horton</span><br>
+                <span class="role">Agricultural Supply Chain Consultant, World Bank</span>
+            </div>
+            
+            <div class="endorsement">
+                <p>"What a journey to take on the pages of your book. After 18 years as governor, De Kort's framework is helping me navigate my own future journey and understand how protection becomes a constraint."</p>
+                <span class="attribution">Jonathan G.A. Johnson</span><br>
+                <span class="role">Governor of Saba</span>
+            </div>
+            
+            <div class="endorsement">
+                <p>"By interweaving academic insights with deeply personal experiences, De Kort offers a unique new perspective on the vulnerability and resilience of small island territories."</p>
+                <span class="attribution">Prof. Wouter Veenendaal</span><br>
+                <span class="role">Kingdom Research Chair in Political Science, Leiden University</span>
+            </div>
+            
+            <div class="endorsement">
+                <p>"Reading this, I saw my own journey articulated clearly — how what I built to protect myself years ago had become what was holding me back. The conch paradox reveals a pattern that goes far beyond islands."</p>
+                <span class="attribution">Lucija Rakocevic</span><br>
+                <span class="role">Energy Transition Specialist</span>
+            </div>
+        </div>
+
     </div>
     
     <footer>
-        <p>&copy; 2026 Rendell de Kort | Shoco Press | Launch: March 18, 2026</p>
+        <p>&copy; 2026 Rendell de Kort | Shoco Press</p>
     </footer>
 </body>
 </html>
