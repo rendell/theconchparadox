@@ -1,0 +1,64 @@
+# Iteration: 1
+# Conch Paradox — Phase 1: Spiral growth with thickening shell wall
+# Output: clean spiral suitable for annotation in Canva
+# No labels, legends, or markers — just the shell geometry
+
+library(ggplot2)
+
+# --- Spiral parameters ---
+turns <- 2.6
+steps <- 1000
+a0 <- 0.4
+growth_rate <- 0.155
+base_r <- 26
+
+# Generate spiral points
+t_seq <- seq(0, 1, length.out = steps + 1)
+angle <- a0 + t_seq * turns * 2 * pi
+radius <- base_r * exp(growth_rate * angle)
+
+# Inner wall (living chamber boundary)
+inner_x <- radius * cos(angle)
+inner_y <- radius * sin(angle)
+
+# Outer wall — shell thickens gradually during growth phase
+# Juvenile shell is thin; thickens modestly as it grows
+wall_thickness <- 3 + t_seq * 22  # thin early, noticeably thick late
+
+outer_x <- (radius + wall_thickness) * cos(angle)
+outer_y <- (radius + wall_thickness) * sin(angle)
+
+# Build data frames
+df_inner <- data.frame(x = inner_x, y = inner_y)
+df_outer <- data.frame(x = outer_x, y = outer_y)
+
+# Shell fill: polygon from inner wall forward, outer wall reversed
+df_shell <- data.frame(
+  x = c(inner_x, rev(outer_x)),
+  y = c(inner_y, rev(outer_y))
+)
+
+# --- Plot ---
+p <- ggplot() +
+  # Shell mass (filled area between walls)
+  geom_polygon(data = df_shell, aes(x = x, y = y),
+               fill = "grey80", alpha = 0.4) +
+  # Inner wall (darker, heavier line)
+  geom_path(data = df_inner, aes(x = x, y = y),
+            color = "grey30", linewidth = 0.8) +
+  # Outer wall (lighter line)
+  geom_path(data = df_outer, aes(x = x, y = y),
+            color = "grey50", linewidth = 0.5) +
+  coord_equal() +
+  theme_void() +
+  theme(
+    plot.background = element_rect(fill = "white", color = NA),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+
+# Save as high-res PNG for Canva (300 DPI, 6x6 inches)
+ggsave("conch_spiral_phase1.png", plot = p,
+       width = 6, height = 6, dpi = 300, bg = "white")
+
+# Preview
+print(p)
