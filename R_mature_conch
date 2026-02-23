@@ -1,0 +1,92 @@
+# Iteration: 1
+# Conch Paradox — Phase 2: Adult thickening (shell grows inward)
+# Shows the full spiral from Phase 1, then adds the thickening region
+# where nacre deposits INWARD, compressing the living space
+# No labels, legends, or markers — annotate in Canva
+
+library(ggplot2)
+
+# --- Phase 1 spiral (same as before) ---
+turns <- 2.6
+steps <- 1000
+a0 <- 0.4
+growth_rate <- 0.155
+base_r <- 26
+
+t_seq <- seq(0, 1, length.out = steps + 1)
+angle <- a0 + t_seq * turns * 2 * pi
+radius <- base_r * exp(growth_rate * angle)
+
+inner_x <- radius * cos(angle)
+inner_y <- radius * sin(angle)
+
+wall_thickness <- 3 + t_seq * 22
+outer_x <- (radius + wall_thickness) * cos(angle)
+outer_y <- (radius + wall_thickness) * sin(angle)
+
+# Phase 1 shell fill
+df_shell_p1 <- data.frame(
+  x = c(inner_x, rev(outer_x)),
+  y = c(inner_y, rev(outer_y))
+)
+
+# --- Phase 2: thickening region (last ~45% of spiral) ---
+thicken_start <- round(steps * 0.55)
+thicken_idx <- thicken_start:(steps + 1)
+thicken_frac <- seq(0, 1, length.out = length(thicken_idx))
+
+# Outer thickening: additional shell deposited outward
+added_outer <- thicken_frac^2 * 30
+outer_thick_x <- (radius[thicken_idx] + wall_thickness[thicken_idx] + added_outer) * cos(angle[thicken_idx])
+outer_thick_y <- (radius[thicken_idx] + wall_thickness[thicken_idx] + added_outer) * sin(angle[thicken_idx])
+
+# Inner thickening (nacre): shell grows INWARD, compressing living space
+nacre_inward <- thicken_frac^2 * 18
+inner_thick_x <- (radius[thicken_idx] - nacre_inward) * cos(angle[thicken_idx])
+inner_thick_y <- (radius[thicken_idx] - nacre_inward) * sin(angle[thicken_idx])
+
+# Phase 2 shell fill (thickened region)
+df_shell_p2 <- data.frame(
+  x = c(inner_thick_x, rev(outer_thick_x)),
+  y = c(inner_thick_y, rev(outer_thick_y))
+)
+
+# Nacre inner wall as separate line (for emphasis)
+df_nacre <- data.frame(x = inner_thick_x, y = inner_thick_y)
+
+# Inner and outer wall lines (full spiral)
+df_inner <- data.frame(x = inner_x, y = inner_y)
+df_outer <- data.frame(x = outer_x, y = outer_y)
+df_outer_thick <- data.frame(x = outer_thick_x, y = outer_thick_y)
+
+# --- Plot ---
+p <- ggplot() +
+  # Phase 1 shell mass (light)
+  geom_polygon(data = df_shell_p1, aes(x = x, y = y),
+               fill = "grey82", alpha = 0.35) +
+  # Phase 2 shell mass (darker, showing thickening)
+  geom_polygon(data = df_shell_p2, aes(x = x, y = y),
+               fill = "grey60", alpha = 0.4) +
+  # Original inner wall
+  geom_path(data = df_inner, aes(x = x, y = y),
+            color = "grey30", linewidth = 0.8) +
+  # Original outer wall
+  geom_path(data = df_outer, aes(x = x, y = y),
+            color = "grey50", linewidth = 0.5) +
+  # Thickened outer wall
+  geom_path(data = df_outer_thick, aes(x = x, y = y),
+            color = "grey35", linewidth = 0.7) +
+  # Nacre inner wall (the inward growth — dashed, darker)
+  geom_path(data = df_nacre, aes(x = x, y = y),
+            color = "grey20", linewidth = 1, linetype = "dashed") +
+  coord_equal() +
+  theme_void() +
+  theme(
+    plot.background = element_rect(fill = "white", color = NA),
+    plot.margin = margin(20, 20, 20, 20)
+  )
+
+ggsave("conch_spiral_phase2.png", plot = p,
+       width = 6, height = 6, dpi = 300, bg = "white")
+
+print(p)
