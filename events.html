@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - The Conch Paradox</title>
+
+    <meta property="og:title" content="The Conch Paradox - Book signings and events">
+    <meta property="og:description" content="Upcoming book signings and events with Rendell de Kort across Aruba, Curaçao, and Sint Maarten.">
+    <meta property="og:image" content="https://theconchparadox.com/images/Front_Cover.png">
+    <meta property="og:url" content="https://theconchparadox.com/events.html">
+    <meta property="og:type" content="website">
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: white;
+            color: #333;
+        }
+
+        nav {
+            background: #2bbcb6;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        nav a:hover {
+            background: #E8927C;
+            color: white;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2bbcb6;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #E8927C;
+            font-size: 1.2em;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #E8927C;
+            border-bottom: 3px solid #E8927C;
+            padding-bottom: 10px;
+            margin-top: 50px;
+        }
+
+        .event {
+            display: flex;
+            gap: 30px;
+            margin: 40px 0;
+            padding: 25px;
+            background: #fdf6f4;
+            border-left: 5px solid #E8927C;
+            border-radius: 0 8px 8px 0;
+            align-items: flex-start;
+        }
+
+        .event.tbc {
+            background: #f1faf9;
+            border-left-color: #2bbcb6;
+        }
+
+        .event-poster {
+            flex: 0 0 220px;
+        }
+
+        .event-poster img {
+            width: 100%;
+            border-radius: 6px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+            display: block;
+        }
+
+        .event-poster .poster-link {
+            display: block;
+            text-align: center;
+            margin-top: 8px;
+            font-size: 0.85em;
+            color: #2bbcb6;
+            text-decoration: none;
+        }
+
+        .event-poster .poster-link:hover {
+            color: #E8927C;
+        }
+
+        .event-details {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .event-details h3 {
+            color: #2bbcb6;
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 1.4em;
+        }
+
+        .event-details .event-when {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.05em;
+            margin: 4px 0;
+        }
+
+        .event-details .event-where {
+            color: #555;
+            margin: 4px 0;
+        }
+
+        .event-details .event-note {
+            margin-top: 14px;
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #2bbcb6;
+            color: black;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .badge.tbc {
+            background: #E8927C;
+            color: white;
+        }
+
+        .placeholder-poster {
+            background: #2bbcb6;
+            color: black;
+            width: 100%;
+            aspect-ratio: 3/4;
+            border-radius: 6px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+        }
+
+        .placeholder-poster .ph-label {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            opacity: 0.7;
+            margin-bottom: 10px;
+        }
+
+        .placeholder-poster .ph-where {
+            font-size: 1.8em;
+            font-weight: bold;
+            line-height: 1.1;
+        }
+
+        .placeholder-poster .ph-when {
+            font-size: 0.95em;
+            margin-top: 12px;
+        }
+
+        .cta-box {
+            background: #2bbcb6;
+            color: black;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 60px 0 30px 0;
+        }
+
+        .cta-box h3 {
+            color: black;
+            margin-top: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 10px;
+            background: #E8927C;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .button:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
+
+        a { color: #2bbcb6; }
+        a:hover { color: #E8927C; }
+
+        footer {
+            background: #2bbcb6;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 640px) {
+            .event {
+                flex-direction: column;
+            }
+            .event-poster {
+                flex: 1 1 auto;
+                max-width: 280px;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="preview.html">Preview</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="subscribe.html">Stay Updated</a>
+    </nav>
+
+    <div class="container">
+        <h1>Events</h1>
+        <p class="subtitle">Book signings and conversations across the Caribbean</p>
+
+        <h2>Confirmed</h2>
+
+        <div class="event">
+            <div class="event-poster">
+                <img src="images/signing-plaza.png" alt="Plaza Bookshop signing poster">
+            </div>
+            <div class="event-details">
+                <span class="badge">Aruba</span>
+                <h3>Book signing at Plaza Bookshop</h3>
+                <p class="event-when">Saturday, 16 May 2026 · 2:00 - 4:00 p.m.</p>
+                <p class="event-where">Plaza Bookshop, Ave Milio Croes 8A, Oranjestad, Aruba</p>
+                <p class="event-note">Meet the author, get your book signed. Copies available at the store. Hosted by Nico Luydens and the Plaza Bookshop team.</p>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="event-poster">
+                <img src="images/signing-dewit.png" alt="De Wit &amp; Van Dorp signing poster">
+                <a href="images/signing-dewit.pdf" class="poster-link" target="_blank" rel="noopener">Download poster (PDF)</a>
+            </div>
+            <div class="event-details">
+                <span class="badge">Aruba</span>
+                <h3>Book signing at De Wit &amp; Van Dorp</h3>
+                <p class="event-when">Wednesday, 20 May 2026 · 3:00 - 5:00 p.m.</p>
+                <p class="event-where">De Wit &amp; Van Dorp, Dakota branch, Aruba</p>
+                <p class="event-note">A second Aruba signing for readers who missed the Plaza date. Copies available at the store.</p>
+            </div>
+        </div>
+
+        <h2>Save the date</h2>
+
+        <div class="event tbc">
+            <div class="event-poster">
+                <div class="placeholder-poster">
+                    <div class="ph-label">Save the date</div>
+                    <div class="ph-where">Curaçao</div>
+                    <div class="ph-when">August - September 2026</div>
+                </div>
+            </div>
+            <div class="event-details">
+                <span class="badge tbc">Curaçao · Date TBC</span>
+                <h3>Curaçao book signing</h3>
+                <p class="event-when">August - September 2026 · exact date and venue to be confirmed</p>
+                <p class="event-where">Willemstad, Curaçao</p>
+                <p class="event-note">Tied to a University of Curaçao visit with the Dutch Caribbean Data Collaborative (DCDC) Network. Details will be posted here once the host venue is confirmed. <a href="subscribe.html">Subscribe</a> to be notified.</p>
+            </div>
+        </div>
+
+        <div class="event tbc">
+            <div class="event-poster">
+                <div class="placeholder-poster">
+                    <div class="ph-label">Save the date</div>
+                    <div class="ph-where">Sint Maarten</div>
+                    <div class="ph-when">September - October 2026</div>
+                </div>
+            </div>
+            <div class="event-details">
+                <span class="badge tbc">Sint Maarten · Date TBC</span>
+                <h3>Sint Maarten book signing</h3>
+                <p class="event-when">September - October 2026 · exact date and venue to be confirmed</p>
+                <p class="event-where">Philipsburg, Sint Maarten</p>
+                <p class="event-note">Coinciding with a University of St. Martin visit with the Dutch Caribbean Data Collaborative (DCDC) Network. Details will be posted here once the host venue is confirmed. <a href="subscribe.html">Subscribe</a> to be notified.</p>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h3>Want to be notified about future events?</h3>
+            <p>Get an email when new dates are confirmed, including the Curaçao and Sint Maarten signings.</p>
+            <a href="subscribe.html" class="button">Stay updated</a>
+        </div>
+
+        <p style="text-align:center; color:#999; font-size:0.9em; margin-top:30px;">
+            Hosting an event or interested in a signing in your city?
+            <a href="mailto:rendell@c-economics.com">Get in touch</a>.
+        </p>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Rendell de Kort | Shoco Press</p>
+    </footer>
+</body>
+</html>
