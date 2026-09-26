@@ -112,6 +112,35 @@
             border-left-color: #2bbcb6;
         }
 
+        .channel.has-photo {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+        }
+
+        .channel-photo {
+            flex: 0 0 150px;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .channel-photo.cover {
+            height: auto;
+            object-fit: contain;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            border-radius: 2px;
+        }
+
+        .channel-text { flex: 1; min-width: 0; }
+
+        @media (max-width: 600px) {
+            .channel.has-photo { flex-direction: column; }
+            .channel-photo { width: 100%; height: 220px; flex-basis: auto; }
+            .channel-photo.cover { width: 140px; height: auto; }
+        }
+
         a { color: #2bbcb6; }
         a:hover { color: #E8927C; }
 
@@ -142,10 +171,13 @@
         <h2 id="worldwide">Anywhere in the world</h2>
         <span id="us"></span>
 
-        <div class="channel">
-            <h3>Paperback, delivered to your door</h3>
-            <p>The second edition, printed on demand and shipped by UPS, at <span class="price">USD 29.99</span>. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
-            <a href="https://store.bookbaby.com/book/the-conch-paradox" class="channel-link" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">Order the paperback &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo cover" src="images/thumbs/cover.jpg" alt="The Conch Paradox, second edition cover" loading="lazy">
+            <div class="channel-text">
+                <h3>Paperback, delivered to your door</h3>
+                <p>The second edition, printed on demand and shipped by UPS, at <span class="price">USD 29.99</span>. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
+                <a href="https://store.bookbaby.com/book/the-conch-paradox" class="channel-link" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">Order the paperback &rarr;</a>
+            </div>
         </div>
 
         <div class="channel" id="ebook">
@@ -183,26 +215,35 @@
 
         <h2>In Aruba</h2>
 
-        <div class="channel">
-            <h3>Plaza Bookshop, Oranjestad</h3>
-            <p>Second edition paperback on the shelf at <span class="price">Afl. 60</span>. Ave Milio Croes 8A. Tel 5821821.</p>
-            <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
-            <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/plaza.jpg" alt="Book signing at Plaza Bookshop, Oranjestad" loading="lazy">
+            <div class="channel-text">
+                <h3>Plaza Bookshop, Oranjestad</h3>
+                <p>Second edition paperback on the shelf at <span class="price">Afl. 60</span>. Ave Milio Croes 8A. Tel 5821821.</p>
+                <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
+                <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
+            </div>
         </div>
 
-        <div class="channel">
-            <h3>De Wit &amp; Van Dorp</h3>
-            <p>On the shelf at <span class="price">Afl. 60</span>. Dakota branch.</p>
-            <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
-            <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/dewit-vandorp.jpg" alt="Rendell de Kort and Lincoln Gomez with the book at De Wit &amp; Van Dorp, Dakota" loading="lazy">
+            <div class="channel-text">
+                <h3>De Wit &amp; Van Dorp</h3>
+                <p>On the shelf at <span class="price">Afl. 60</span>. Dakota branch.</p>
+                <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
+                <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
+            </div>
         </div>
 
         <h2 id="libraries">Read it in a library</h2>
 
-        <div class="channel">
-            <h3>Biblioteca Nacional Aruba</h3>
-            <p>Two copies presented to the national library in September 2026, going into lending circulation.</p>
-            <a href="https://www.bibliotecanacional.aw/pages/the-conch-paradox/" class="channel-link" target="_blank" rel="noopener">Read the library's announcement &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/biblioteca-nacional.jpg" alt="Rendell de Kort handing the book to Astrid Britten at Biblioteca Nacional Aruba" loading="lazy">
+            <div class="channel-text">
+                <h3>Biblioteca Nacional Aruba</h3>
+                <p>Two copies presented to the national library in September 2026, going into lending circulation.</p>
+                <a href="https://www.bibliotecanacional.aw/pages/the-conch-paradox/" class="channel-link" target="_blank" rel="noopener">Read the library's announcement &rarr;</a>
+            </div>
         </div>
 
         <div class="channel">
