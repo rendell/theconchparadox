@@ -119,9 +119,9 @@
         }
 
         .channel-photo {
-            flex: 0 0 150px;
-            width: 150px;
-            height: 150px;
+            flex: 0 0 180px;
+            width: 180px;
+            height: 135px;
             object-fit: cover;
             border-radius: 6px;
         }
@@ -137,9 +137,11 @@
 
         @media (max-width: 600px) {
             .channel.has-photo { flex-direction: column; }
-            .channel-photo { width: 100%; height: 220px; flex-basis: auto; }
-            .channel-photo.cover { width: 140px; height: auto; }
+            .channel-photo { width: 100%; height: auto; aspect-ratio: 4 / 3; flex-basis: auto; }
+            .channel-photo.cover { width: 140px; height: auto; aspect-ratio: auto; }
         }
+
+        .credits { font-size: 0.8em; color: #888; margin-top: 40px; }
 
         a { color: #2bbcb6; }
         a:hover { color: #E8927C; }
@@ -175,7 +177,7 @@
             <img class="channel-photo cover" src="images/thumbs/cover.jpg" alt="The Conch Paradox, second edition cover" loading="lazy">
             <div class="channel-text">
                 <h3>Paperback, delivered to your door</h3>
-                <p>The second edition, printed on demand and shipped by UPS, at <span class="price">USD 29.99</span>. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
+                <p>The second edition, printed on demand and shipped by UPS. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
                 <a href="https://store.bookbaby.com/book/the-conch-paradox" class="channel-link" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">Order the paperback &rarr;</a>
             </div>
         </div>
@@ -193,10 +195,13 @@
 
         <h2>In the Netherlands</h2>
 
-        <div class="channel">
-            <h3>Donner Rotterdam</h3>
-            <p>The Rotterdam connection is not incidental: the opening scenes of the book play out on the Erasmus Bridge and in the Erasmus MC, and most of the first manuscript was written there.</p>
-            <a href="https://www.donner.nl/producten/the-conch-paradox-9789990470109/" class="channel-link" target="_blank" rel="noopener">Order at donner.nl &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/donner.jpg" alt="Donner bookshop entrance, Coolsingel, Rotterdam" loading="lazy">
+            <div class="channel-text">
+                <h3>Donner Rotterdam</h3>
+                <p>The Rotterdam connection is not incidental: the opening scenes of the book play out on the Erasmus Bridge and in the Erasmus MC, and most of the first manuscript was written there.</p>
+                <a href="https://www.donner.nl/producten/the-conch-paradox-9789990470109/" class="channel-link" target="_blank" rel="noopener">Order at donner.nl &rarr;</a>
+            </div>
         </div>
 
         <h2>In Cura&ccedil;ao</h2>
@@ -207,38 +212,35 @@
             <a href="https://mensings.com/" class="channel-link" target="_blank" rel="noopener">Visit mensings.com &rarr;</a>
         </div>
 
-        <div class="channel">
-            <h3>Bruna, Zuikertuin Mall</h3>
-            <p>Second edition paperback, in store. Zuikertuin Mall z/n, Willemstad. Tel +5999 738 8394.</p>
-            <a href="https://www.zuikertuinmall.com/bruna/" class="channel-link" target="_blank" rel="noopener">Visit Bruna &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/bruna.jpg" alt="Bruna storefront, Zuikertuin Mall, Willemstad" loading="lazy">
+            <div class="channel-text">
+                <h3>Bruna, Zuikertuin Mall</h3>
+                <p>Second edition paperback, in store. Zuikertuin Mall z/n, Willemstad. Tel +5999 738 8394.</p>
+                <a href="https://www.zuikertuinmall.com/bruna/" class="channel-link" target="_blank" rel="noopener">Visit Bruna &rarr;</a>
+            </div>
         </div>
 
         <h2>In Aruba</h2>
 
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/plaza.jpg" alt="Book signing at Plaza Bookshop, Oranjestad" loading="lazy">
-            <div class="channel-text">
-                <h3>Plaza Bookshop, Oranjestad</h3>
-                <p>Second edition paperback on the shelf at <span class="price">Afl. 60</span>. Ave Milio Croes 8A. Tel 5821821.</p>
-                <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
-                <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
-            </div>
+        <div class="channel">
+            <h3>Plaza Bookshop, Oranjestad</h3>
+            <p>Second edition paperback, in store. Ave Milio Croes 8A. Tel 5821821.</p>
+            <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
+            <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
         </div>
 
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/dewit-vandorp.jpg" alt="Rendell de Kort and Lincoln Gomez with the book at De Wit &amp; Van Dorp, Dakota" loading="lazy">
-            <div class="channel-text">
-                <h3>De Wit &amp; Van Dorp</h3>
-                <p>On the shelf at <span class="price">Afl. 60</span>. Dakota branch.</p>
-                <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
-                <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
-            </div>
+        <div class="channel">
+            <h3>De Wit &amp; Van Dorp</h3>
+            <p>Second edition paperback, in store. Dakota branch.</p>
+            <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
+            <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
         </div>
 
         <h2 id="libraries">Read it in a library</h2>
 
         <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/biblioteca-nacional.jpg" alt="Rendell de Kort handing the book to Astrid Britten at Biblioteca Nacional Aruba" loading="lazy">
+            <img class="channel-photo" src="images/thumbs/biblioteca-nacional.jpg" alt="Biblioteca Nacional Aruba, main building, Oranjestad" loading="lazy">
             <div class="channel-text">
                 <h3>Biblioteca Nacional Aruba</h3>
                 <p>Two copies presented to the national library in September 2026, going into lending circulation.</p>
@@ -252,10 +254,13 @@
             <a href="https://www.ua.aw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UA library &rarr;</a>
         </div>
 
-        <div class="channel">
-            <h3>University of Cura&ccedil;ao Library</h3>
-            <p>Available to borrow.</p>
-            <a href="https://uoc.cw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UoC library &rarr;</a>
+        <div class="channel has-photo">
+            <img class="channel-photo" src="images/thumbs/uoc.jpg" alt="Entrance of the University of Cura&ccedil;ao" loading="lazy">
+            <div class="channel-text">
+                <h3>University of Cura&ccedil;ao Library</h3>
+                <p>Available to borrow.</p>
+                <a href="https://uoc.cw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UoC library &rarr;</a>
+            </div>
         </div>
 
         <div class="channel">
@@ -264,6 +269,7 @@
             <a href="https://www.carmabi.org/" class="channel-link" target="_blank" rel="noopener">Visit carmabi.org &rarr;</a>
         </div>
 
+        <p class="credits">Photos: Donner by Timelezz, CC BY-SA 4.0; University of Cura&ccedil;ao by DDJJ, CC BY-SA 4.0; Biblioteca Nacional Aruba by Ian Mackenzie, CC BY 2.0; all via Wikimedia Commons. Bruna: Zuikertuin Mall.</p>
     </div>
 
     <footer>
