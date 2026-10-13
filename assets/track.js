@@ -11,7 +11,7 @@
 (function (global) {
   'use strict';
 
-  var SITE_CODE = null;               // e.g. 'conchparadox'  <-- set this
+  var SITE_CODE = 'conchparadox';     // GoatCounter site, created 13 Oct 2026
   var FALLBACK_MS = 700;              // never make a scanner wait longer than this
 
   function endpoint(path, title) {
