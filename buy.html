@@ -141,6 +141,46 @@
             .channel-photo.cover { width: 140px; height: auto; aspect-ratio: auto; }
         }
 
+        .store-shot {
+            display: block;
+            margin: 18px 0 6px;
+            border: 1px solid #f0d9d2;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+        }
+
+        .store-shot img { display: block; width: 100%; height: auto; }
+
+        .shot-caption { font-size: 0.9em; color: #666; margin: 4px 0 0; }
+
+        .driver {
+            background: white;
+            border: 2px solid #2bbcb6;
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin: 14px 0;
+        }
+
+        .driver-label {
+            display: block;
+            font-size: 0.8em;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #E8927C;
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .driver-address {
+            display: block;
+            font-size: 1.35em;
+            line-height: 1.35;
+            color: #111;
+            font-weight: bold;
+        }
+
+
         .credits { font-size: 0.8em; color: #888; margin-top: 40px; }
 
         a { color: #2bbcb6; }
@@ -173,13 +213,14 @@
         <h2 id="worldwide">Anywhere in the world</h2>
         <span id="us"></span>
 
-        <div class="channel has-photo">
-            <img class="channel-photo cover" src="images/thumbs/cover.jpg" alt="The Conch Paradox, second edition cover" loading="lazy">
-            <div class="channel-text">
-                <h3>Paperback, delivered to your door</h3>
-                <p>The second edition, printed on demand and shipped by UPS. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
-                <a href="https://store.bookbaby.com/book/the-conch-paradox" class="channel-link" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">Order the paperback &rarr;</a>
-            </div>
+        <div class="channel">
+            <h3>Paperback from the BookBaby bookshop</h3>
+            <p>Outside Aruba, Cura&ccedil;ao and St. Martin, order the paperback from BookBaby. The second edition is printed on demand and shipped by UPS. In the United States there is no international postage and nothing to clear through customs. Elsewhere, local import duties and taxes are paid on delivery.</p>
+            <a class="store-shot" href="https://store.bookbaby.com/book/the-conch-paradox" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">
+                <img src="images/bookbaby-store.jpg" alt="The Conch Paradox on the BookBaby bookshop, with the Add to Cart button highlighted" loading="lazy">
+            </a>
+            <p class="shot-caption">This is the page you will land on. Pick Paperback, then Add to Cart.</p>
+            <a href="https://store.bookbaby.com/book/the-conch-paradox" class="channel-link" target="_blank" rel="noopener" onclick="if(window.TCPTrack)TCPTrack.outbound('bookbaby')">Order on BookBaby &rarr;</a>
         </div>
 
         <div class="channel" id="ebook">
@@ -197,7 +238,12 @@
 
         <div class="channel">
             <h3>Mensing's Caminada, Willemstad</h3>
-            <p>Second edition paperback, in store. Schottegatweg Oost. Tel +5999 737 0222.</p>
+            <p>Second edition paperback, in store. Tel +5999 737 0222.</p>
+            <div class="driver">
+                <span class="driver-label">Show this to your driver</span>
+                <span class="driver-address">Mensing's Caminada<br>Schottegatweg Oost z/n<br>Willemstad, Cura&ccedil;ao</span>
+            </div>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Mensing%27s+Caminada+Schottegatweg+Oost+Willemstad+Curacao" target="_blank" rel="noopener">Get directions to Mensing's Caminada</a></p>
             <a href="https://mensings.com/" class="channel-link" target="_blank" rel="noopener">Visit mensings.com &rarr;</a>
         </div>
 
@@ -205,7 +251,11 @@
             <img class="channel-photo" src="images/thumbs/bruna.jpg" alt="Bruna storefront, Zuikertuin Mall, Willemstad" loading="lazy">
             <div class="channel-text">
                 <h3>Bruna, Zuikertuin Mall</h3>
-                <p>Second edition paperback, in store. Zuikertuin Mall z/n, Willemstad. Tel +5999 738 8394.</p>
+                <p>Second edition paperback, in store. Tel +5999 738 8394.</p>
+                <div class="driver">
+                    <span class="driver-label">Show this to your driver</span>
+                    <span class="driver-address">Bruna, Zuikertuin Mall<br>Willemstad, Cura&ccedil;ao</span>
+                </div>
                 <a href="https://www.zuikertuinmall.com/bruna/" class="channel-link" target="_blank" rel="noopener">Visit Bruna &rarr;</a>
             </div>
         </div>
@@ -214,15 +264,24 @@
 
         <div class="channel">
             <h3>Plaza Bookshop, Oranjestad</h3>
-            <p>Second edition paperback, in store. Ave Milio Croes 8A, Oranjestad. Tel 582 1821.</p>
+            <p>Second edition paperback, in store. Tel 582 1821.</p>
+            <div class="driver">
+                <span class="driver-label">Show this to your driver</span>
+                <span class="driver-address">Plaza Bookshop<br>Avenida Milio Croes 8a<br>Oranjestad, Aruba</span>
+            </div>
             <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Plaza+Bookshop+Avenida+Milio+Croes+8A+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to Plaza Bookshop</a></p>
             <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
             <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
         </div>
 
         <div class="channel">
-            <h3>De Wit &amp; Van Dorp</h3>
-            <p>Second edition paperback, in store. Dakota branch.</p>
+            <h3>De Wit &amp; Van Dorp, Dakota</h3>
+            <p>Second edition paperback, in store at the Dakota branch.</p>
+            <div class="driver">
+                <span class="driver-label">Show this to your driver</span>
+                <span class="driver-address">De Wit &amp; Van Dorp, Dakota<br>Avenida Milio Croes 21<br>Oranjestad, Aruba</span>
+            </div>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=De+Wit+Van+Dorp+Avenida+Milio+Croes+21+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to De Wit &amp; Van Dorp</a></p>
             <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
             <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
         </div>
@@ -231,10 +290,21 @@
 
         <div class="channel">
             <h3>Van Dorp, Simpson Bay</h3>
-            <p>Second edition paperback, in store. Airport Road 41, Simpson Bay. Tel +1 721 545 3888.</p>
+            <p>Second edition paperback, in store. Tel +1 721 545 3888.</p>
+            <div class="driver">
+                <span class="driver-label">Show this to your driver</span>
+                <span class="driver-address">Van Dorp<br>Airport Road 41<br>Simpson Bay, Sint Maarten</span>
+            </div>
             <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Van+Dorp+Airport+Road+41+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Van Dorp</a></p>
         </div>
 
+        <!-- DoubleDutch Galerie held back until she confirms she wants to be listed. Restore with a driver card + map like the others.
+        <div class="channel">
+            <h3>DoubleDutch Galerie, Market Garden, Simpson Bay</h3>
+            <p>Second edition paperback, in the gift shop at Market Garden. 109 Welfare Road, Simpson Bay. Tel +1 721 544 4435.</p>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Market+Garden+109+Welfare+Road+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Market Garden</a></p>
+        </div>
+        -->
         <h2 id="libraries">Read it in a library</h2>
 
         <div class="channel has-photo">
