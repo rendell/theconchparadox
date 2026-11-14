@@ -6,7 +6,7 @@
     <title>Get the book - The Conch Paradox</title>
 
     <meta property="og:title" content="Get The Conch Paradox">
-    <meta property="og:description" content="Where to find The Conch Paradox: the paperback and ebook worldwide, and bookshops in Cura&ccedil;ao and Aruba.">
+    <meta property="og:description" content="Where to find The Conch Paradox: the paperback and ebook worldwide, and bookshops and libraries in Aruba, Cura&ccedil;ao and St. Martin.">
     <meta property="og:image" content="https://theconchparadox.com/images/Front_Cover.png">
     <meta property="og:url" content="https://theconchparadox.com/buy.html">
     <meta property="og:type" content="website">
@@ -181,6 +181,75 @@
         }
 
 
+        /* Flag picker: one panel per place, opened by its flag. Iteration: 1 */
+        .picker-hint { margin: 0 0 18px; color: #555; }
+
+        .flags {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin: 0 0 10px;
+        }
+
+        .flag-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            padding: 16px 8px 12px;
+            background: white;
+            border: 2px solid #f0d9d2;
+            border-radius: 8px;
+            cursor: pointer;
+            font-family: Georgia, serif;
+            font-size: 1em;
+            font-weight: bold;
+            color: #333;
+            transition: border-color 0.2s, background 0.2s, transform 0.2s;
+        }
+
+        .flag-btn img {
+            width: 72px;
+            height: 48px;
+            object-fit: cover;
+            border-radius: 3px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+        }
+
+        .flag-btn:hover { border-color: #E8927C; transform: translateY(-2px); }
+        .flag-btn:focus-visible { outline: 3px solid #E8927C; outline-offset: 2px; }
+
+        .flag-btn[aria-expanded="true"] {
+            border-color: #2bbcb6;
+            background: #f1faf9;
+            box-shadow: inset 0 -4px 0 #2bbcb6;
+        }
+
+        .place {
+            border-top: 3px solid #2bbcb6;
+            margin-top: 22px;
+            padding-top: 4px;
+        }
+
+        .place > h3.place-name {
+            color: #2bbcb6;
+            font-size: 1.5em;
+            margin: 14px 0 0;
+        }
+
+        .group-label {
+            font-size: 0.8em;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #E8927C;
+            font-weight: bold;
+            margin: 26px 0 -10px;
+        }
+
+        @media (max-width: 600px) {
+            .flags { grid-template-columns: repeat(2, 1fr); }
+        }
+
         .credits { font-size: 0.8em; color: #888; margin-top: 40px; }
 
         a { color: #2bbcb6; }
@@ -208,7 +277,7 @@
 
     <div class="container">
         <h1>Get the book</h1>
-        <p class="subtitle">Paperback and ebook anywhere in the world, and on the shelf in Cura&ccedil;ao and Aruba</p>
+        <p class="subtitle">Paperback and ebook anywhere in the world, and on the shelf in Aruba, Cura&ccedil;ao and St. Martin</p>
 
         <h2 id="worldwide">Anywhere in the world</h2>
         <span id="us"></span>
@@ -234,125 +303,214 @@
             <p>Distributed through StreetLib to the major ebook platforms. Search "The Conch Paradox" in your preferred store.</p>
         </div>
 
-        <h2>In Cura&ccedil;ao</h2>
+        <h2 id="near-you">On the shelf, place by place</h2>
+        <p class="picker-hint">Pick a flag to see the bookshops that carry the book there, and the libraries where you can borrow it.</p>
 
-        <div class="channel">
-            <h3>Mensing's Caminada, Willemstad</h3>
-            <p>Second edition paperback, in store. Tel +5999 737 0222.</p>
-            <div class="driver">
-                <span class="driver-label">Show this to your driver</span>
-                <span class="driver-address">Mensing's Caminada<br>Schottegatweg Oost z/n<br>Willemstad, Cura&ccedil;ao</span>
-            </div>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Mensing%27s+Caminada+Schottegatweg+Oost+Willemstad+Curacao" target="_blank" rel="noopener">Get directions to Mensing's Caminada</a></p>
-            <a href="https://mensings.com/" class="channel-link" target="_blank" rel="noopener">Visit mensings.com &rarr;</a>
+        <div class="flags" role="group" aria-label="Choose a place">
+            <button type="button" class="flag-btn" aria-expanded="false" aria-controls="aruba">
+                <img src="images/flags/aruba.svg" alt="">Aruba
+            </button>
+            <button type="button" class="flag-btn" aria-expanded="false" aria-controls="curacao">
+                <img src="images/flags/curacao.svg" alt="">Cura&ccedil;ao
+            </button>
+            <button type="button" class="flag-btn" aria-expanded="false" aria-controls="st-martin">
+                <img src="images/flags/st-martin.svg" alt="">St. Martin
+            </button>
+            <button type="button" class="flag-btn" aria-expanded="false" aria-controls="netherlands">
+                <img src="images/flags/netherlands.svg" alt="">Netherlands
+            </button>
         </div>
 
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/bruna.jpg" alt="Bruna storefront, Zuikertuin Mall, Willemstad" loading="lazy">
-            <div class="channel-text">
-                <h3>Bruna, Zuikertuin Mall</h3>
-                <p>Second edition paperback, in store. Tel +5999 738 8394.</p>
+        <!-- ARUBA -->
+        <section class="place" id="aruba">
+            <h3 class="place-name">Aruba</h3>
+
+            <p class="group-label">Bookshops</p>
+
+            <div class="channel">
+                <h3>Plaza Bookshop, Oranjestad</h3>
+                <p>Second edition paperback, in store. Tel 582 1821.</p>
                 <div class="driver">
                     <span class="driver-label">Show this to your driver</span>
-                    <span class="driver-address">Bruna, Zuikertuin Mall<br>Willemstad, Cura&ccedil;ao</span>
+                    <span class="driver-address">Plaza Bookshop<br>Avenida Milio Croes 8a<br>Oranjestad, Aruba</span>
                 </div>
-                <a href="https://www.zuikertuinmall.com/bruna/" class="channel-link" target="_blank" rel="noopener">Visit Bruna &rarr;</a>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Plaza+Bookshop+Avenida+Milio+Croes+8A+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to Plaza Bookshop</a></p>
+                <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
+                <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
             </div>
-        </div>
 
-        <h2>In Aruba</h2>
-
-        <div class="channel">
-            <h3>Plaza Bookshop, Oranjestad</h3>
-            <p>Second edition paperback, in store. Tel 582 1821.</p>
-            <div class="driver">
-                <span class="driver-label">Show this to your driver</span>
-                <span class="driver-address">Plaza Bookshop<br>Avenida Milio Croes 8a<br>Oranjestad, Aruba</span>
+            <div class="channel">
+                <h3>De Wit &amp; Van Dorp, Dakota</h3>
+                <p>Second edition paperback, in store at the Dakota branch.</p>
+                <div class="driver">
+                    <span class="driver-label">Show this to your driver</span>
+                    <span class="driver-address">De Wit &amp; Van Dorp, Dakota<br>Avenida Milio Croes 21<br>Oranjestad, Aruba</span>
+                </div>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=De+Wit+Van+Dorp+Avenida+Milio+Croes+21+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to De Wit &amp; Van Dorp</a></p>
+                <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
+                <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
             </div>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Plaza+Bookshop+Avenida+Milio+Croes+8A+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to Plaza Bookshop</a></p>
-            <p>Aruba launch signing held here on Saturday 16 May 2026. See the <a href="events.html">events page</a>.</p>
-            <a href="https://plazabookshop.com/" class="channel-link" target="_blank" rel="noopener">Visit plazabookshop.com &rarr;</a>
-        </div>
 
-        <div class="channel">
-            <h3>De Wit &amp; Van Dorp, Dakota</h3>
-            <p>Second edition paperback, in store at the Dakota branch.</p>
-            <div class="driver">
-                <span class="driver-label">Show this to your driver</span>
-                <span class="driver-address">De Wit &amp; Van Dorp, Dakota<br>Avenida Milio Croes 21<br>Oranjestad, Aruba</span>
+            <!-- SUPERFOOD: not agreed yet (samples only, 13 Nov 2026). When it is, add a channel block
+                 here with a driver card and a directions link, like the two above. -->
+
+            <p class="group-label">Libraries</p>
+
+            <div class="channel has-photo">
+                <img class="channel-photo" src="images/thumbs/biblioteca-nacional.jpg" alt="Biblioteca Nacional Aruba, main building, Oranjestad" loading="lazy">
+                <div class="channel-text">
+                    <h3>Biblioteca Nacional Aruba</h3>
+                    <p>Two copies presented to the national library in September 2026, going into lending circulation.</p>
+                    <a href="https://www.bibliotecanacional.aw/pages/the-conch-paradox/" class="channel-link" target="_blank" rel="noopener">Read the library's announcement &rarr;</a>
+                </div>
             </div>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=De+Wit+Van+Dorp+Avenida+Milio+Croes+21+Oranjestad+Aruba" target="_blank" rel="noopener">Get directions to De Wit &amp; Van Dorp</a></p>
-            <p>Second Aruba signing held here on Wednesday 20 May 2026. See the <a href="events.html">events page</a>.</p>
-            <a href="https://www.dewitvandorp.com/" class="channel-link" target="_blank" rel="noopener">Visit dewitvandorp.com &rarr;</a>
-        </div>
 
-        <h2>In St. Martin</h2>
-
-        <div class="channel">
-            <h3>Van Dorp, Simpson Bay</h3>
-            <p>Second edition paperback, in store. Tel +1 721 545 3888.</p>
-            <div class="driver">
-                <span class="driver-label">Show this to your driver</span>
-                <span class="driver-address">Van Dorp<br>Airport Road 41<br>Simpson Bay, Sint Maarten</span>
+            <div class="channel">
+                <h3>University of Aruba Library</h3>
+                <p>The library holds a small number of copies, and an inscribed copy stays on the permanent reference shelf for anyone willing to read it there.</p>
+                <a href="https://www.ua.aw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UA library &rarr;</a>
             </div>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Van+Dorp+Airport+Road+41+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Van Dorp</a></p>
-        </div>
+        </section>
 
-        <!-- DoubleDutch Galerie held back until she confirms she wants to be listed. Restore with a driver card + map like the others.
-        <div class="channel">
-            <h3>DoubleDutch Galerie, Market Garden, Simpson Bay</h3>
-            <p>Second edition paperback, in the gift shop at Market Garden. 109 Welfare Road, Simpson Bay. Tel +1 721 544 4435.</p>
-            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Market+Garden+109+Welfare+Road+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Market Garden</a></p>
-        </div>
-        -->
-        <h2 id="libraries">Read it in a library</h2>
+        <!-- CURACAO -->
+        <section class="place" id="curacao">
+            <h3 class="place-name">Cura&ccedil;ao</h3>
 
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/biblioteca-nacional.jpg" alt="Biblioteca Nacional Aruba, main building, Oranjestad" loading="lazy">
-            <div class="channel-text">
-                <h3>Biblioteca Nacional Aruba</h3>
-                <p>Two copies presented to the national library in September 2026, going into lending circulation.</p>
-                <a href="https://www.bibliotecanacional.aw/pages/the-conch-paradox/" class="channel-link" target="_blank" rel="noopener">Read the library's announcement &rarr;</a>
+            <p class="group-label">Bookshops</p>
+
+            <div class="channel">
+                <h3>Mensing's Caminada, Willemstad</h3>
+                <p>Second edition paperback, in store. Tel +5999 737 0222.</p>
+                <div class="driver">
+                    <span class="driver-label">Show this to your driver</span>
+                    <span class="driver-address">Mensing's Caminada<br>Schottegatweg Oost z/n<br>Willemstad, Cura&ccedil;ao</span>
+                </div>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Mensing%27s+Caminada+Schottegatweg+Oost+Willemstad+Curacao" target="_blank" rel="noopener">Get directions to Mensing's Caminada</a></p>
+                <a href="https://mensings.com/" class="channel-link" target="_blank" rel="noopener">Visit mensings.com &rarr;</a>
             </div>
-        </div>
 
-        <div class="channel">
-            <h3>University of Aruba Library</h3>
-            <p>The library holds a small number of copies, and an inscribed copy stays on the permanent reference shelf for anyone willing to read it there.</p>
-            <a href="https://www.ua.aw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UA library &rarr;</a>
-        </div>
-
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/uoc.jpg" alt="Entrance of the University of Cura&ccedil;ao" loading="lazy">
-            <div class="channel-text">
-                <h3>University of Cura&ccedil;ao Library</h3>
-                <p>Available to borrow.</p>
-                <a href="https://uoc.cw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UoC library &rarr;</a>
+            <div class="channel has-photo">
+                <img class="channel-photo" src="images/thumbs/bruna.jpg" alt="Bruna storefront, Zuikertuin Mall, Willemstad" loading="lazy">
+                <div class="channel-text">
+                    <h3>Bruna, Zuikertuin Mall</h3>
+                    <p>Second edition paperback, in store. Tel +5999 738 8394.</p>
+                    <div class="driver">
+                        <span class="driver-label">Show this to your driver</span>
+                        <span class="driver-address">Bruna, Zuikertuin Mall<br>Willemstad, Cura&ccedil;ao</span>
+                    </div>
+                    <a href="https://www.zuikertuinmall.com/bruna/" class="channel-link" target="_blank" rel="noopener">Visit Bruna &rarr;</a>
+                </div>
             </div>
-        </div>
 
-        <div class="channel">
-            <h3>CARMABI Library, Cura&ccedil;ao</h3>
-            <p>Available to borrow at the Caribbean Research and Management of Biodiversity foundation.</p>
-            <a href="https://www.carmabi.org/" class="channel-link" target="_blank" rel="noopener">Visit carmabi.org &rarr;</a>
-        </div>
+            <p class="group-label">Libraries</p>
 
-        <div class="channel has-photo">
-            <img class="channel-photo" src="images/thumbs/usm-library.jpg" alt="Rendell de Kort and USM Librarian Stacey Thomas holding The Conch Paradox in front of the University of St. Martin pelican logo" loading="lazy">
-            <div class="channel-text">
-                <h3>University of St. Martin Library</h3>
-                <p>An inscribed copy presented in September 2026, available to borrow for USM students, faculty and staff.</p>
-                <a href="https://www.usm.sx/news/usm-library-adds-the-conch-paradox-ahead-of-public-talk-404" class="channel-link" target="_blank" rel="noopener">Read USM's announcement &rarr;</a>
+            <div class="channel has-photo">
+                <img class="channel-photo" src="images/thumbs/uoc.jpg" alt="Entrance of the University of Cura&ccedil;ao" loading="lazy">
+                <div class="channel-text">
+                    <h3>University of Cura&ccedil;ao Library</h3>
+                    <p>Available to borrow.</p>
+                    <a href="https://uoc.cw/library/" class="channel-link" target="_blank" rel="noopener">Visit the UoC library &rarr;</a>
+                </div>
             </div>
-        </div>
 
-        <p class="credits">Photos: University of Cura&ccedil;ao by DDJJ, CC BY-SA 4.0; Biblioteca Nacional Aruba by Ian Mackenzie, CC BY 2.0; all via Wikimedia Commons. Bruna: Zuikertuin Mall. University of St. Martin Library: University of St. Martin.</p>
+            <div class="channel">
+                <h3>CARMABI Library</h3>
+                <p>Available to borrow at the Caribbean Research and Management of Biodiversity foundation.</p>
+                <a href="https://www.carmabi.org/" class="channel-link" target="_blank" rel="noopener">Visit carmabi.org &rarr;</a>
+            </div>
+        </section>
+
+        <!-- ST. MARTIN -->
+        <section class="place" id="st-martin">
+            <h3 class="place-name">St. Martin</h3>
+
+            <p class="group-label">Bookshops</p>
+
+            <div class="channel">
+                <h3>Van Dorp, Simpson Bay</h3>
+                <p>Second edition paperback, in store. Tel +1 721 545 3888.</p>
+                <div class="driver">
+                    <span class="driver-label">Show this to your driver</span>
+                    <span class="driver-address">Van Dorp<br>Airport Road 41<br>Simpson Bay, Sint Maarten</span>
+                </div>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Van+Dorp+Airport+Road+41+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Van Dorp</a></p>
+            </div>
+
+            <!-- DoubleDutch Galerie held back until she confirms she wants to be listed. Restore with a driver card + map like the others.
+            <div class="channel">
+                <h3>DoubleDutch Galerie, Market Garden, Simpson Bay</h3>
+                <p>Second edition paperback, in the gift shop at Market Garden. 109 Welfare Road, Simpson Bay. Tel +1 721 544 4435.</p>
+                <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Market+Garden+109+Welfare+Road+Simpson+Bay+Sint+Maarten" target="_blank" rel="noopener">Get directions to Market Garden</a></p>
+            </div>
+            -->
+
+            <p class="group-label">Libraries</p>
+
+            <div class="channel has-photo">
+                <img class="channel-photo" src="images/thumbs/usm-library.jpg" alt="Rendell de Kort and USM Librarian Stacey Thomas holding The Conch Paradox in front of the University of St. Martin pelican logo" loading="lazy">
+                <div class="channel-text">
+                    <h3>University of St. Martin Library</h3>
+                    <p>An inscribed copy presented in September 2026, available to borrow for USM students, faculty and staff.</p>
+                    <a href="https://www.usm.sx/news/usm-library-adds-the-conch-paradox-ahead-of-public-talk-404" class="channel-link" target="_blank" rel="noopener">Read USM's announcement &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- NETHERLANDS -->
+        <section class="place" id="netherlands">
+            <h3 class="place-name">Netherlands</h3>
+
+            <div class="channel">
+                <h3>Order the paperback to your door</h3>
+                <p>No Dutch bookshop carries the book yet. BookBaby ships the paperback to the Netherlands by UPS, and import duties and VAT are paid on delivery. The ebook is available straight away.</p>
+                <a href="#worldwide" class="channel-link">See the worldwide options &uarr;</a>
+            </div>
+
+            <!-- vanGennep, Rotterdam (Oude Binnenweg 131b): consignment of 3 copies offered 4 Oct 2026,
+                 email still a draft then. List it here with a driver card once the copies are on the shelf. -->
+        </section>
+
+        <p class="credits">Flags via Wikimedia Commons. Photos: University of Cura&ccedil;ao by DDJJ, CC BY-SA 4.0; Biblioteca Nacional Aruba by Ian Mackenzie, CC BY 2.0; all via Wikimedia Commons. Bruna: Zuikertuin Mall. University of St. Martin Library: University of St. Martin.</p>
     </div>
 
     <footer>
-        <p>&copy; 2026 Rendell de Kort | Prikichi Press</p>
+        <p>&copy; 2026 Rendell de Kort | Prikichi Press | <a href="https://rendell.github.io" style="color:black;">Author website</a></p>
     </footer>
     <script src="assets/track.js"></script>
     <script>if(window.TCPTrack)TCPTrack.attribute();</script>
+    <script>
+    /* Flag picker. Iteration: 1
+     * Without JS every place stays visible. With JS, one place opens at a time.
+     * A hash (#aruba, #curacao, #st-martin, #netherlands) or a bookmark QR source
+     * (?src=curacao, ?src=sxm) opens that place on arrival. */
+    (function () {
+        var buttons = Array.prototype.slice.call(document.querySelectorAll('.flag-btn'));
+        var places = buttons.map(function (b) { return document.getElementById(b.getAttribute('aria-controls')); });
+
+        function open(id, scroll) {
+            buttons.forEach(function (b, i) {
+                var on = b.getAttribute('aria-controls') === id;
+                b.setAttribute('aria-expanded', on ? 'true' : 'false');
+                places[i].hidden = !on;
+            });
+            var isPlace = places.some(function (p) { return p.id === location.hash.replace('#', ''); });
+            if (history.replaceState && (id || isPlace)) history.replaceState(null, '', id ? '#' + id : location.pathname + location.search);
+            if (id && scroll) document.getElementById('near-you').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        buttons.forEach(function (b) {
+            b.addEventListener('click', function () {
+                var id = b.getAttribute('aria-controls');
+                open(b.getAttribute('aria-expanded') === 'true' ? null : id, false);
+            });
+        });
+
+        var fromSrc = { curacao: 'curacao', sxm: 'st-martin' };
+        var hash = location.hash.replace('#', '');
+        var src = (location.search.match(/[?&]src=([^&]+)/) || [])[1];
+        var start = places.some(function (p) { return p.id === hash; }) ? hash : (fromSrc[src] || null);
+        open(start, !!start);
+    })();
+    </script>
 </body>
 </html>
